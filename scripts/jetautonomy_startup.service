@@ -1,0 +1,12 @@
+[Unit]
+Description=JetAutonomy Startup
+After=multi-user.target
+
+[Service]
+ExecStart=/home/jetson/JetAutonomy/scripts/teleoperation.py
+Restart=always
+StartLimitInterval=10
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
