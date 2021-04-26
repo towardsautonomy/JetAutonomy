@@ -1,2 +1,0 @@
-
--DCATKIN_DEVEL_PREFIX=/home/jetson/JetAutonomy/ros/devel -DCMAKE_INSTALL_PREFIX=/home/jetson/JetAutonomy/ros/install -G Unix Makefiles
