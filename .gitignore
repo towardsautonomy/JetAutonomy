@@ -1,6 +1,7 @@
 # ignore compiled files
 .ipynb_checkpoints/
 __pycache__/
+*.pyc
 
 # ignore ros builds
 ros/build/
