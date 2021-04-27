@@ -1,8 +1,0 @@
-prefix=/home/jetson/JetAutonomy/ros/devel
-
-Name: front_cam
-Description: Description of front_cam
-Version: 0.0.0
-Cflags: -I/home/jetson/JetAutonomy/ros/src/front_cam/include
-Libs: -L${prefix}/lib -lfront_cam
-Requires: cv_bridge message_generation roscpp sensor_msgs std_msgs
