@@ -1,12 +1,11 @@
 #!/usr/bin/python3
 
+import os
 import sys
-sys.path.append("/home/jetson/jetracer/")
-sys.path.append("/home/jetson/JetAutonomy/drivers/")
-sys.path.append("/home/jetson/JetAutonomy/scripts/")
+sys.path.append(os.path.abspath('../'))
 
 from jetracer.nvidia_racecar import NvidiaRacecar
-from gamepad import Joystick
+from drivers import Joystick
 
 # config parameters
 steering_gain = 0.7
