@@ -1,0 +1,30 @@
+[0.602s] Invoking command in '/home/jetson/JetAutonomy/ros/build/joystick': AMENT_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/JetAutonomy/ros/src/joystick -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jetson/JetAutonomy/ros/install/joystick
+[1.410s] -- The C compiler identification is GNU 7.3.0
+[2.090s] -- The CXX compiler identification is GNU 7.3.0
+[2.201s] -- Check for working C compiler: /usr/bin/cc
+[3.122s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.128s] -- Detecting C compiler ABI info
+[4.091s] -- Detecting C compiler ABI info - done
+[4.161s] -- Detecting C compile features
+[6.894s] -- Detecting C compile features - done
+[6.922s] -- Check for working CXX compiler: /usr/bin/c++
+[7.969s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.980s] -- Detecting CXX compiler ABI info
+[8.957s] -- Detecting CXX compiler ABI info - done
+[9.028s] -- Detecting CXX compile features
+[13.499s] -- Detecting CXX compile features - done
+[13.694s] -- Found ament_cmake: 0.7.6 (/home/jetson/ros2_dashing/install/ament_cmake/share/ament_cmake/cmake)
+[18.384s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3") 
+[18.387s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[28.204s] -- Found rclpy: 0.7.11 (/home/jetson/ros2_dashing/install/rclpy/share/rclpy/cmake)
+[28.212s] -- Found jet_autonomy_msgs: 0.0.0 (/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/share/jet_autonomy_msgs/cmake)
+[29.379s] -- Found rosidl_adapter: 0.7.10 (/home/jetson/ros2_dashing/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[29.901s] CMake Error at /home/jetson/ros2_dashing/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:36 (message):
+[29.908s]   ament_target_dependencies() the first argument must be a valid target name
+[29.909s] Call Stack (most recent call first):
+[29.909s]   CMakeLists.txt:10 (ament_target_dependencies)
+[29.910s] 
+[29.911s] 
+[29.920s] -- Configuring incomplete, errors occurred!
+[29.924s] See also "/home/jetson/JetAutonomy/ros/build/joystick/CMakeFiles/CMakeOutput.log".
+[29.957s] Invoked command in '/home/jetson/JetAutonomy/ros/build/joystick' returned '1': AMENT_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/JetAutonomy/ros/src/joystick -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jetson/JetAutonomy/ros/install/joystick

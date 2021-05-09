@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/joystick/joystick.egg-info/PKG-INFO
+writing dependency_links to ../../build/joystick/joystick.egg-info/dependency_links.txt
+writing entry points to ../../build/joystick/joystick.egg-info/entry_points.txt
+writing requirements to ../../build/joystick/joystick.egg-info/requires.txt
+writing top-level names to ../../build/joystick/joystick.egg-info/top_level.txt
+file joystick_node.py (for module joystick_node) not found
+package init file 'joystick/__init__.py' not found (or not a regular file)
+reading manifest file '../../build/joystick/joystick.egg-info/SOURCES.txt'
+writing manifest file '../../build/joystick/joystick.egg-info/SOURCES.txt'
+running build
+running build_py
+file joystick_node.py (for module joystick_node) not found
+file joystick_node.py (for module joystick_node) not found
+creating /home/jetson/JetAutonomy/ros/build/joystick/build
+creating /home/jetson/JetAutonomy/ros/build/joystick/build/lib
+creating /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick
+copying joystick/gamepad.py -> /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick
+copying joystick/joystick_node.py -> /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick
+running install
+running install_lib
+creating /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick
+copying /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick/gamepad.py -> /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick
+copying /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick/joystick_node.py -> /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick
+byte-compiling /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick/gamepad.py to gamepad.cpython-36.pyc
+byte-compiling /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick/joystick_node.py to joystick_node.cpython-36.pyc
+running install_data
+creating /home/jetson/JetAutonomy/ros/install/joystick/share/ament_index
+creating /home/jetson/JetAutonomy/ros/install/joystick/share/ament_index/resource_index
+creating /home/jetson/JetAutonomy/ros/install/joystick/share/ament_index/resource_index/packages
+error: can't copy 'resource/joystick': doesn't exist or not a regular file

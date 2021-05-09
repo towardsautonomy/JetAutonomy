@@ -3,7 +3,8 @@ Description=JetAutonomy Startup
 After=multi-user.target
 
 [Service]
-ExecStart=/home/jetson/JetAutonomy/scripts/teleoperation.py
+WorkingDirectory=/home/jetson/JetAutonomy
+ExecStart=/home/jetson/JetAutonomy/scripts/jetautonomy_startup.sh
 Restart=always
 StartLimitInterval=10
 RestartSec=10

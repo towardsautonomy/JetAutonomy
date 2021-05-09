@@ -8,7 +8,7 @@ from jetracer.nvidia_racecar import NvidiaRacecar
 from drivers import Joystick
 
 # config parameters
-steering_gain = 0.7
+steering_gain = 0.5
 steering_offset = 0.0
 
 throttle_gain = 0.5

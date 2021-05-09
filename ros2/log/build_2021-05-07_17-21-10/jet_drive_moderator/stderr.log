@@ -1,0 +1,71 @@
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:36:45:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+         rclcpp::Subscription<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr subscription_;
+                                             [01;31m[K^~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:36:45:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:36:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+         rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr subscription_;
+                                                   [01;31m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:36:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+         rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K subscription_;
+                                                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:36:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+         rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_[m[K;
+                                                                [01;31m[K^~~~~~~~~~~~~[m[K
+                                                                [32m[Krcl_subscription_t[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:38:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+         rclcpp::Publisher<[01;31m[Ksensor_msgs[m[K::msg::Image>::SharedPtr publisher_;
+                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:38:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+         rclcpp::Publisher<sensor_msgs::msg::Image[01;31m[K>[m[K::SharedPtr publisher_;
+                                                  [01;31m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:38:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+         rclcpp::Publisher<sensor_msgs::msg::Image>::[01;31m[KSharedPtr[m[K publisher_;
+                                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:38:53:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint JetDriveModeratorNode::SharedPtr[m[K’
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:36:54:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint JetDriveModeratorNode::SharedPtr[m[K’
+         rclcpp::Subscription<std_msgs::msg::String>::[01;36m[KSharedPtr[m[K subscription_;
+                                                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:38:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+         rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr [01;31m[Kpublisher_[m[K;
+                                                               [01;31m[K^~~~~~~~~~[m[K
+                                                               [32m[Krcl_publisher_t[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:[m[K In constructor ‘[01m[KJetDriveModeratorNode::JetDriveModeratorNode()[m[K’:
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope
+         [01;31m[Ksubscription_[m[K = this->create_subscription<jet_autonomy_msgs::msg::JoystickCmd>(
+         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:14:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_subscription_t[m[K’
+         [01;36m[Ksubscription_[m[K = this->create_subscription<jet_autonomy_msgs::msg::JoystickCmd>(
+         [01;36m[K^~~~~~~~~~~~~[m[K
+         [32m[Krcl_subscription_t[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:15:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kjooystick_cb[m[K’ is not a member of ‘[01m[KJetDriveModeratorNode[m[K’
+                           "/joystick/cmd", 10, std::bind(&JetDriveModeratorNode::[01;31m[Kjooystick_cb[m[K, this, _1));
+                                                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:15:104:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope
+             "/joystick/cmd", 10, std::bind(&JetDriveModeratorNode::jooystick_cb, this, [01;31m[K_1[m[K));
+                                                                                        [01;31m[K^~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:15:104:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/context.hpp:19:0[m[K,
+                 from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/contexts/default_context.hpp:18[m[K,
+                 from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executor.hpp:32[m[K,
+                 from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:2[m[K:
+[01m[K/usr/include/c++/7/functional:275:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_1[m[K’
+     extern const _Placeholder<1> [01;36m[K_1[m[K;
+                                  [01;36m[K^~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+         [01;31m[Kpublisher_[m[K = this->create_publisher<jet_autonomy_msgs::msg::JetDriveCmd>("/jet_drive/cmd", 10);
+         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:17:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+         [01;36m[Kpublisher_[m[K = this->create_publisher<jet_autonomy_msgs::msg::JetDriveCmd>("/jet_drive/cmd", 10);
+         [01;36m[K^~~~~~~~~~[m[K
+         [32m[Krcl_publisher_t[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:[m[K In member function ‘[01m[Kvoid JetDriveModeratorNode::topic_callback(jet_autonomy_msgs::msg::JoystickCmd_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/jetson/JetAutonomy/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:32:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class JetDriveModeratorNode[m[K’ has no member named ‘[01m[Kpublisher_[m[K’; did you mean ‘[01m[Kcount_publishers[m[K’?
+                 this->[01;31m[Kpublisher_[m[K->publish(std::move(jet_drive_cmd));
+                       [01;31m[K^~~~~~~~~~[m[K
+                       [32m[Kcount_publishers[m[K
+make[2]: *** [CMakeFiles/jet_drive_moderator_node.dir/src/jet_drive_moderator_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/jet_drive_moderator_node.dir/all] Error 2
+make: *** [all] Error 2

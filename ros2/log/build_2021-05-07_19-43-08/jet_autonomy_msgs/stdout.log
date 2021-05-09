@@ -1,0 +1,113 @@
+[  2%] Built target jet_autonomy_msgs__cpp
+[ 12%] Built target jet_autonomy_msgs__rosidl_generator_c
+[ 23%] Built target jet_autonomy_msgs__rosidl_typesupport_cpp
+[ 33%] Built target jet_autonomy_msgs__rosidl_typesupport_fastrtps_cpp
+[ 43%] Built target jet_autonomy_msgs__rosidl_typesupport_introspection_cpp
+[ 53%] Built target jet_autonomy_msgs__rosidl_typesupport_introspection_c
+[ 64%] Built target jet_autonomy_msgs__rosidl_typesupport_c
+[ 74%] Built target jet_autonomy_msgs__rosidl_typesupport_fastrtps_c
+[ 74%] Built target jet_autonomy_msgs
+[ 76%] Built target jet_autonomy_msgs__py
+[ 84%] Built target jet_autonomy_msgs__python
+[ 89%] Built target jet_autonomy_msgs__rosidl_typesupport_c__pyext
+[ 94%] Built target jet_autonomy_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target jet_autonomy_msgs__rosidl_typesupport_introspection_c__pyext
+[ 10%] Built target jet_autonomy_msgs__rosidl_generator_c
+[ 12%] Built target jet_autonomy_msgs__cpp
+[ 23%] Built target jet_autonomy_msgs__rosidl_typesupport_introspection_c
+[ 33%] Built target jet_autonomy_msgs__rosidl_typesupport_c
+[ 43%] Built target jet_autonomy_msgs__rosidl_typesupport_fastrtps_cpp
+[ 53%] Built target jet_autonomy_msgs__rosidl_typesupport_introspection_cpp
+[ 64%] Built target jet_autonomy_msgs__rosidl_typesupport_cpp
+[ 74%] Built target jet_autonomy_msgs__rosidl_typesupport_fastrtps_c
+[ 74%] Built target jet_autonomy_msgs
+[ 76%] Built target jet_autonomy_msgs__py
+[ 84%] Built target jet_autonomy_msgs__python
+[ 89%] Built target jet_autonomy_msgs__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] Built target jet_autonomy_msgs__rosidl_typesupport_c__pyext
+[100%] Built target jet_autonomy_msgs__rosidl_typesupport_introspection_c__pyext
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/ament_index/resource_index/rosidl_interfaces/jet_autonomy_msgs
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/libjet_autonomy_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/environment/library_path.sh
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/libjet_autonomy_msgs__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/jet_drive_cmd__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/joystick_cmd__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/jet_drive_cmd__type_support.c
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/joystick_cmd__type_support.c
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/libjet_autonomy_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/joystick_cmd__type_support.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/jet_drive_cmd__functions.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/jet_drive_cmd__struct.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/joystick_cmd__functions.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/joystick_cmd__functions.c
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/jet_drive_cmd__type_support.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/jet_drive_cmd__functions.c
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/joystick_cmd__struct.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/jet_drive_cmd.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/joystick_cmd.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/libjet_autonomy_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/joystick_cmd__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/jet_drive_cmd__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/libjet_autonomy_msgs__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/joystick_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/jet_drive_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/dds_fastrtps
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/libjet_autonomy_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/joystick_cmd__traits.hpp
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/jet_drive_cmd__struct.hpp
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/joystick_cmd.hpp
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/jet_drive_cmd.hpp
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/joystick_cmd__struct.hpp
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/jet_drive_cmd__traits.hpp
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/joystick_cmd__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/jet_drive_cmd__type_support.cpp
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/joystick_cmd__type_support.cpp
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/include/jet_autonomy_msgs/msg/jet_drive_cmd__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/libjet_autonomy_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/environment/pythonpath.sh
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/python3.6/site-packages/jet_autonomy_msgs/__init__.py
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/python3.6/site-packages/jet_autonomy_msgs/msg
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/python3.6/site-packages/jet_autonomy_msgs/msg/_joystick_cmd_s.c
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/python3.6/site-packages/jet_autonomy_msgs/msg/_joystick_cmd.py
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/python3.6/site-packages/jet_autonomy_msgs/msg/__init__.py
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/python3.6/site-packages/jet_autonomy_msgs/msg/_jet_drive_cmd.py
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/python3.6/site-packages/jet_autonomy_msgs/msg/_jet_drive_cmd_s.c
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/python3.6/site-packages/jet_autonomy_msgs/jet_autonomy_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/python3.6/site-packages/jet_autonomy_msgs/jet_autonomy_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/python3.6/site-packages/jet_autonomy_msgs/jet_autonomy_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/lib/libjet_autonomy_msgs__python.so
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/msg/JoystickCmd.idl
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/msg/JetDriveCmd.idl
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/msg/JoystickCmd.msg
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/msg/JetDriveCmd.msg
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/ament_index/resource_index/package_run_dependencies/jet_autonomy_msgs
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/ament_index/resource_index/parent_prefix_path/jet_autonomy_msgs
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/local_setup.bash
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/local_setup.sh
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/local_setup.zsh
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/ament_index/resource_index/packages/jet_autonomy_msgs
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/cmake/jet_autonomy_msgsConfig.cmake
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/cmake/jet_autonomy_msgsConfig-version.cmake
+-- Up-to-date: /home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs/share/jet_autonomy_msgs/package.xml

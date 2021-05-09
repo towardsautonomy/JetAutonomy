@@ -1,0 +1,5 @@
+CMake Error: The current CMakeCache.txt directory /home/jetson/JetAutonomy/ros2/build/front_cam/CMakeCache.txt is different than the directory /home/jetson/JetAutonomy/ros/build/front_cam where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source directory "/home/jetson/JetAutonomy/ros/src/front_cam" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+Makefile:252: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1

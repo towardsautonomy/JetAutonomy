@@ -1,0 +1,13 @@
+[0.000000] (-) TimerEvent: {}
+[0.010639] (-) JobUnselected: {'identifier': 'front_cam'}
+[0.012364] (-) JobUnselected: {'identifier': 'jet_autonomy_msgs'}
+[0.012660] (-) JobUnselected: {'identifier': 'jet_drive'}
+[0.012909] (joystick) JobQueued: {'identifier': 'joystick', 'dependencies': OrderedDict([('jet_autonomy_msgs', '/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs')])}
+[0.017562] (joystick) JobStarted: {'identifier': 'joystick'}
+[0.099646] (-) TimerEvent: {}
+[0.200667] (-) TimerEvent: {}
+[0.302116] (-) TimerEvent: {}
+[0.407089] (-) TimerEvent: {}
+[0.517315] (-) TimerEvent: {}
+[0.562200] (joystick) JobEnded: {'identifier': 'joystick', 'rc': 1}
+[0.570698] (-) EventReactorShutdown: {}

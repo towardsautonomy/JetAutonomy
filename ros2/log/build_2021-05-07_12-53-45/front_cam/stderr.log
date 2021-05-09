@@ -1,0 +1,29 @@
+In file included from [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:7:0[m[K:
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/include/CSICamera.hpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid CSICamera::capture_thread()[m[K’ conflicts with a previous declaration
+         [01;31m[K}[m[K
+         [01;31m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/include/CSICamera.hpp:27:21:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::thread CSICamera::capture_thread[m[K’
+         std::thread [01;36m[Kcapture_thread[m[K;
+                     [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/include/CSICamera.hpp:30:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcv[m[K’
+         [01;31m[Kcv[m[K::Mat frame_;
+         [01;31m[K^~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/include/CSICamera.hpp:[m[K In member function ‘[01m[Kvoid CSICamera::capture_thread()[m[K’:
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/include/CSICamera.hpp:49:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_[m[K’ was not declared in this scope
+                 cap.read([01;31m[Kframe_[m[K);
+                          [01;31m[K^~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/include/CSICamera.hpp:49:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfromfp[m[K’
+                 cap.read([01;36m[Kframe_[m[K);
+                          [01;36m[K^~~~~~[m[K
+                          [32m[Kfromfp[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/include/CSICamera.hpp:[m[K In member function ‘[01m[Kint CSICamera::read(cv::Mat&)[m[K’:
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/include/CSICamera.hpp:109:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_[m[K’ was not declared in this scope
+             [01;31m[Kframe_[m[K.copyTo(frame);
+             [01;31m[K^~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/include/CSICamera.hpp:109:13:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kframe[m[K’
+             [01;36m[Kframe_[m[K.copyTo(frame);
+             [01;36m[K^~~~~~[m[K
+             [32m[Kframe[m[K
+make[2]: *** [CMakeFiles/front_cam_node.dir/src/front_cam_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/front_cam_node.dir/all] Error 2
+make: *** [all] Error 2

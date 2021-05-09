@@ -1,9 +1,0 @@
-<launch>
-  <!-- Launch front_cam node -->
-  <node pkg="front_cam" type="front_cam_node" name="front_cam_node">
-    <param name="width" type="int" value="1280" />
-    <param name="height" type="int" value="720" />
-    <param name="frame_rate" type="int" value="120" />
-    <param name="device_id" type="int" value="0" />
-  </node>
-</launch>

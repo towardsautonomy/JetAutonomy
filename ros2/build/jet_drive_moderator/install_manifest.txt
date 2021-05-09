@@ -1,0 +1,11 @@
+/home/jetson/JetAutonomy/ros2/install/jet_drive_moderator/lib/jet_drive_moderator/jet_drive_moderator_node
+/home/jetson/JetAutonomy/ros2/install/jet_drive_moderator/share/jet_drive_moderator//launch/jet_drive_moderator_node.launch.py
+/home/jetson/JetAutonomy/ros2/install/jet_drive_moderator/share/ament_index/resource_index/package_run_dependencies/jet_drive_moderator
+/home/jetson/JetAutonomy/ros2/install/jet_drive_moderator/share/ament_index/resource_index/parent_prefix_path/jet_drive_moderator
+/home/jetson/JetAutonomy/ros2/install/jet_drive_moderator/share/jet_drive_moderator/local_setup.bash
+/home/jetson/JetAutonomy/ros2/install/jet_drive_moderator/share/jet_drive_moderator/local_setup.sh
+/home/jetson/JetAutonomy/ros2/install/jet_drive_moderator/share/jet_drive_moderator/local_setup.zsh
+/home/jetson/JetAutonomy/ros2/install/jet_drive_moderator/share/ament_index/resource_index/packages/jet_drive_moderator
+/home/jetson/JetAutonomy/ros2/install/jet_drive_moderator/share/jet_drive_moderator/cmake/jet_drive_moderatorConfig.cmake
+/home/jetson/JetAutonomy/ros2/install/jet_drive_moderator/share/jet_drive_moderator/cmake/jet_drive_moderatorConfig-version.cmake
+/home/jetson/JetAutonomy/ros2/install/jet_drive_moderator/share/jet_drive_moderator/package.xml

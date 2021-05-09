@@ -1,0 +1,5 @@
+std_msgs/Header header
+bool manual_drive_enabled
+bool auto_drive_enabled
+float32 steering
+float32 throttle

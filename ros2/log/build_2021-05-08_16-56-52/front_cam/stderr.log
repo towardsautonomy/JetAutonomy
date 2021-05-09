@@ -1,0 +1,5 @@
+In file included from [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:7:0[m[K:
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/include/CSICamera.hpp:[m[K In member function ‘[01m[Kint CSICamera::read(cv::Mat&)[m[K’:
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/include/CSICamera.hpp:117:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kframe[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+         int read(cv::Mat &[01;35m[Kframe[m[K) {
+                           [01;35m[K^~~~~[m[K

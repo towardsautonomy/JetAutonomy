@@ -1,9 +1,0 @@
-<launch>
-  <!-- Launch joystick node -->
-  <node pkg="joystick" type="joystick_node.py" name="joystick_node">
-    <param name="steering_gain" type="double" value="0.7" />
-    <param name="steering_offset" type="double" value="0.0" />
-    <param name="throttle_gain" type="double" value="0.5" />
-    <param name="throttle_offset" type="double" value="0.0" />
-  </node>
-</launch>

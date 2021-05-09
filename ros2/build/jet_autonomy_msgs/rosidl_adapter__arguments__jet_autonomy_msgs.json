@@ -1,0 +1,7 @@
+{
+  "package_name": "jet_autonomy_msgs",
+  "non_idl_tuples": [
+    "/home/jetson/JetAutonomy/ros2/src/jet_autonomy_msgs:msg/JoystickCmd.msg",
+    "/home/jetson/JetAutonomy/ros2/src/jet_autonomy_msgs:msg/JetDriveCmd.msg"
+  ]
+}

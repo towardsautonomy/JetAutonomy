@@ -1,0 +1,190 @@
+[5.276s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'front_cam']
+[5.277s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa8361c50>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['front_cam'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa8361c50>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa8361fd0>)
+[5.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.420s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/JetAutonomy/ros2'
+[5.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.421s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.422s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.584s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.585s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.585s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.588s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.590s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.592s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.593s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.593s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.594s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extensions ['ignore', 'ignore_ament_install']
+[5.602s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extension 'ignore'
+[5.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extension 'ignore_ament_install'
+[5.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extensions ['colcon_pkg']
+[5.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extension 'colcon_pkg'
+[5.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extensions ['colcon_meta']
+[5.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extension 'colcon_meta'
+[5.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extensions ['ros']
+[5.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extension 'ros'
+[5.628s] DEBUG:colcon.colcon_core.package_identification:Package 'src/front_cam' with type 'ros.ament_cmake' and name 'front_cam'
+[5.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extensions ['ignore', 'ignore_ament_install']
+[5.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extension 'ignore'
+[5.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extension 'ignore_ament_install'
+[5.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extensions ['colcon_pkg']
+[5.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extension 'colcon_pkg'
+[5.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extensions ['colcon_meta']
+[5.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extension 'colcon_meta'
+[5.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extensions ['ros']
+[5.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extension 'ros'
+[5.639s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jet_autonomy_msgs' with type 'ros.ament_cmake' and name 'jet_autonomy_msgs'
+[5.640s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extensions ['ignore', 'ignore_ament_install']
+[5.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extension 'ignore'
+[5.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extension 'ignore_ament_install'
+[5.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extensions ['colcon_pkg']
+[5.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extension 'colcon_pkg'
+[5.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extensions ['colcon_meta']
+[5.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extension 'colcon_meta'
+[5.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extensions ['ros']
+[5.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extension 'ros'
+[5.652s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jet_drive' with type 'ros.ament_python' and name 'jet_drive'
+[5.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extensions ['ignore', 'ignore_ament_install']
+[5.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extension 'ignore'
+[5.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extension 'ignore_ament_install'
+[5.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extensions ['colcon_pkg']
+[5.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extension 'colcon_pkg'
+[5.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extensions ['colcon_meta']
+[5.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extension 'colcon_meta'
+[5.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extensions ['ros']
+[5.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extension 'ros'
+[5.663s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jet_drive_moderator' with type 'ros.ament_cmake' and name 'jet_drive_moderator'
+[5.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['ignore', 'ignore_ament_install']
+[5.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'ignore'
+[5.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'ignore_ament_install'
+[5.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['colcon_pkg']
+[5.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'colcon_pkg'
+[5.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['colcon_meta']
+[5.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'colcon_meta'
+[5.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['ros']
+[5.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'ros'
+[5.675s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick' with type 'ros.ament_python' and name 'joystick'
+[5.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extensions ['ignore', 'ignore_ament_install']
+[5.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extension 'ignore'
+[5.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extension 'ignore_ament_install'
+[5.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extensions ['colcon_pkg']
+[5.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extension 'colcon_pkg'
+[5.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extensions ['colcon_meta']
+[5.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extension 'colcon_meta'
+[5.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extensions ['ros']
+[5.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extension 'ros'
+[5.686s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[5.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.007s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jet_autonomy_msgs' in 'src/jet_autonomy_msgs'
+[6.008s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rplidar_ros' in 'src/rplidar'
+[6.008s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jet_drive' in 'src/jet_drive'
+[6.009s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jet_drive_moderator' in 'src/jet_drive_moderator'
+[6.009s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'joystick' in 'src/joystick'
+[6.061s] Level 5:colcon.colcon_core.verb:set package 'front_cam' build argument 'cmake_args' from command line to 'None'
+[6.062s] Level 5:colcon.colcon_core.verb:set package 'front_cam' build argument 'cmake_target' from command line to 'None'
+[6.062s] Level 5:colcon.colcon_core.verb:set package 'front_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.062s] Level 5:colcon.colcon_core.verb:set package 'front_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[6.063s] Level 5:colcon.colcon_core.verb:set package 'front_cam' build argument 'cmake_clean_first' from command line to 'False'
+[6.063s] Level 5:colcon.colcon_core.verb:set package 'front_cam' build argument 'cmake_force_configure' from command line to 'False'
+[6.063s] Level 5:colcon.colcon_core.verb:set package 'front_cam' build argument 'ament_cmake_args' from command line to 'None'
+[6.064s] Level 5:colcon.colcon_core.verb:set package 'front_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[6.064s] Level 5:colcon.colcon_core.verb:set package 'front_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.065s] DEBUG:colcon.colcon_core.verb:Building package 'front_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/JetAutonomy/ros2/build/front_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/JetAutonomy/ros2/install/front_cam', 'merge_install': False, 'path': '/home/jetson/JetAutonomy/ros2/src/front_cam', 'symlink_install': False, 'test_result_base': None}
+[6.069s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.095s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.096s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/JetAutonomy/ros2/src/front_cam' with build type 'ament_cmake'
+[6.097s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/JetAutonomy/ros2/src/front_cam'
+[6.180s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/JetAutonomy/ros2/build/front_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetAutonomy/ros2/build/front_cam -- -j2 -l2
+[34.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/JetAutonomy/ros2/build/front_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetAutonomy/ros2/build/front_cam -- -j2 -l2
+[34.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/JetAutonomy/ros2/build/front_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetAutonomy/ros2/build/front_cam --target install -- -j2 -l2
+[35.868s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(front_cam)
+[35.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/JetAutonomy/ros2/build/front_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetAutonomy/ros2/build/front_cam --target install -- -j2 -l2
+[35.963s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros2/install/front_cam' for CMake module files
+[35.969s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros2/install/front_cam' for CMake config files
+[35.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('front_cam', 'cmake_prefix_path')
+[35.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/hook/cmake_prefix_path.ps1'
+[35.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/hook/cmake_prefix_path.dsv'
+[35.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/hook/cmake_prefix_path.sh'
+[36.005s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros2/install/front_cam/lib'
+[36.007s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros2/install/front_cam/bin'
+[36.008s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros2/install/front_cam/lib/pkgconfig/front_cam.pc'
+[36.008s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros2/install/front_cam/lib/python3.6/site-packages'
+[36.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/package.ps1'
+[36.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/package.dsv'
+[36.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/package.sh'
+[36.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/package.bash'
+[36.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/package.zsh'
+[36.067s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/JetAutonomy/ros2/install/front_cam/share/colcon-core/packages/front_cam)
+[36.508s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(front_cam)
+[36.524s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros2/install/front_cam' for CMake module files
+[36.529s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros2/install/front_cam' for CMake config files
+[36.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('front_cam', 'cmake_prefix_path')
+[36.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/hook/cmake_prefix_path.ps1'
+[36.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/hook/cmake_prefix_path.dsv'
+[36.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/hook/cmake_prefix_path.sh'
+[36.550s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros2/install/front_cam/lib'
+[36.551s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros2/install/front_cam/bin'
+[36.552s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros2/install/front_cam/lib/pkgconfig/front_cam.pc'
+[36.552s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros2/install/front_cam/lib/python3.6/site-packages'
+[36.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/package.ps1'
+[36.564s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/package.dsv'
+[36.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/package.sh'
+[36.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/package.bash'
+[36.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetAutonomy/ros2/install/front_cam/share/front_cam/package.zsh'
+[36.577s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/JetAutonomy/ros2/install/front_cam/share/colcon-core/packages/front_cam)
+[36.579s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[36.587s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[36.589s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[36.590s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[36.735s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[36.736s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[36.737s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[36.743s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[36.744s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[36.752s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/JetAutonomy/ros2/install/local_setup.ps1'
+[36.762s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/JetAutonomy/ros2/install/_local_setup_util_ps1.py'
+[36.777s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/JetAutonomy/ros2/install/setup.ps1'
+[36.919s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/JetAutonomy/ros2/install/local_setup.sh'
+[36.935s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/JetAutonomy/ros2/install/_local_setup_util_sh.py'
+[36.939s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/JetAutonomy/ros2/install/setup.sh'
+[37.074s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/JetAutonomy/ros2/install/local_setup.bash'
+[37.079s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/JetAutonomy/ros2/install/setup.bash'
+[37.210s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/JetAutonomy/ros2/install/local_setup.zsh'
+[37.215s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/JetAutonomy/ros2/install/setup.zsh'

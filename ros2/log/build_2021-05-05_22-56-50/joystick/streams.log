@@ -1,0 +1,35 @@
+[8.425s] Invoking command in '/home/jetson/JetAutonomy/ros/src/joystick': PYTHONPATH=/home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick build --build-base /home/jetson/JetAutonomy/ros/build/joystick/build install --prefix /home/jetson/JetAutonomy/ros/install/joystick --record /home/jetson/JetAutonomy/ros/build/joystick/install.log --single-version-externally-managed
+[16.236s] /usr/local/lib/python3.6/dist-packages/setuptools/dist.py:645: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[16.236s]   % (opt, underscore_opt))
+[16.237s] /usr/local/lib/python3.6/dist-packages/setuptools/dist.py:645: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[16.242s]   % (opt, underscore_opt))
+[16.545s] running egg_info
+[16.550s] writing ../../build/joystick/joystick.egg-info/PKG-INFO
+[16.553s] writing dependency_links to ../../build/joystick/joystick.egg-info/dependency_links.txt
+[16.555s] writing entry points to ../../build/joystick/joystick.egg-info/entry_points.txt
+[16.556s] writing requirements to ../../build/joystick/joystick.egg-info/requires.txt
+[16.557s] writing top-level names to ../../build/joystick/joystick.egg-info/top_level.txt
+[16.967s] reading manifest file '../../build/joystick/joystick.egg-info/SOURCES.txt'
+[16.978s] writing manifest file '../../build/joystick/joystick.egg-info/SOURCES.txt'
+[16.979s] running build
+[16.980s] running build_py
+[16.981s] copying joystick/gamepad.py -> /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick
+[16.982s] copying joystick/joystick_node.py -> /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick
+[16.983s] copying joystick/__init__.py -> /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick
+[16.984s] running install
+[16.987s] running install_lib
+[16.996s] copying /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick/gamepad.py -> /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick
+[16.996s] copying /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick/joystick_node.py -> /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick
+[16.997s] copying /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick/__init__.py -> /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick
+[17.017s] byte-compiling /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick/gamepad.py to gamepad.cpython-36.pyc
+[17.024s] byte-compiling /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick/joystick_node.py to joystick_node.cpython-36.pyc
+[17.027s] byte-compiling /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick/__init__.py to __init__.cpython-36.pyc
+[17.028s] running install_data
+[17.033s] copying resource/joystick -> /home/jetson/JetAutonomy/ros/install/joystick/share/ament_index/resource_index/packages
+[17.035s] copying package.xml -> /home/jetson/JetAutonomy/ros/install/joystick/share/joystick
+[17.036s] running install_egg_info
+[17.066s] Copying ../../build/joystick/joystick.egg-info to /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick-0.0.0-py3.6.egg-info
+[17.074s] running install_scripts
+[17.325s] Installing joystick_node script to /home/jetson/JetAutonomy/ros/install/joystick/lib/joystick
+[17.327s] writing list of installed files to '/home/jetson/JetAutonomy/ros/build/joystick/install.log'
+[17.471s] Invoked command in '/home/jetson/JetAutonomy/ros/src/joystick' returned '0': PYTHONPATH=/home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick build --build-base /home/jetson/JetAutonomy/ros/build/joystick/build install --prefix /home/jetson/JetAutonomy/ros/install/joystick --record /home/jetson/JetAutonomy/ros/build/joystick/install.log --single-version-externally-managed

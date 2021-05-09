@@ -1,0 +1,67 @@
+[0.210s] Invoking command in '/home/jetson/JetAutonomy/ros2/build/front_cam': /usr/bin/cmake --build /home/jetson/JetAutonomy/ros2/build/front_cam -- -j2 -l2
+[0.997s] [35m[1mScanning dependencies of target front_cam_node[0m
+[1.431s] [ 50%] [32mBuilding CXX object CMakeFiles/front_cam_node.dir/src/front_cam_node.cpp.o[0m
+[18.382s] [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:[m[K In constructor ‘[01m[KFrontCamPublisher::FrontCamPublisher()[m[K’:
+[18.383s] [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:26:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KFrontCamPublisher::get_parameter_or(const char [6], uint16_t&, rclcpp::Parameter)[m[K’
+[18.384s]          this->get_parameter_or("width", width, rclcpp::Parameter("width", 1280)[01;31m[K)[m[K;
+[18.385s]                                                                                 [01;31m[K^[m[K
+[18.388s] In file included from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[18.389s]                  from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+[18.390s]                  from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+[18.391s]                  from [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:2[m[K:
+[18.392s] [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class ParameterT> bool rclcpp::Node::get_parameter_or(const string&, ParameterT&, const ParameterT&) const
+[18.392s]    [01;36m[Kget_parameter_or[m[K(
+[18.393s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[18.421s] [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.422s] [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:26:80:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst ParameterT[m[K’ (‘[01m[Kshort unsigned int[m[K’ and ‘[01m[Krclcpp::Parameter[m[K’)
+[18.423s]          this->get_parameter_or("width", width, rclcpp::Parameter("width", 1280)[01;36m[K)[m[K;
+[18.423s]                                                                                 [01;36m[K^[m[K
+[18.435s] [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:27:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KFrontCamPublisher::get_parameter_or(const char [7], uint16_t&, rclcpp::Parameter)[m[K’
+[18.436s]          this->get_parameter_or("height", height, rclcpp::Parameter("height", 720)[01;31m[K)[m[K;
+[18.437s]                                                                                   [01;31m[K^[m[K
+[18.438s] In file included from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[18.439s]                  from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+[18.440s]                  from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+[18.440s]                  from [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:2[m[K:
+[18.441s] [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class ParameterT> bool rclcpp::Node::get_parameter_or(const string&, ParameterT&, const ParameterT&) const
+[18.466s]    [01;36m[Kget_parameter_or[m[K(
+[18.467s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[18.468s] [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.469s] [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:27:82:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst ParameterT[m[K’ (‘[01m[Kshort unsigned int[m[K’ and ‘[01m[Krclcpp::Parameter[m[K’)
+[18.481s]          this->get_parameter_or("height", height, rclcpp::Parameter("height", 720)[01;36m[K)[m[K;
+[18.484s]                                                                                   [01;36m[K^[m[K
+[18.485s] [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:28:94:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KFrontCamPublisher::get_parameter_or(const char [11], uint16_t&, rclcpp::Parameter)[m[K’
+[18.486s]          this->get_parameter_or("frame_rate", frame_rate, rclcpp::Parameter("frame_rate", 120)[01;31m[K)[m[K;
+[18.487s]                                                                                               [01;31m[K^[m[K
+[18.487s] In file included from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[18.488s]                  from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+[18.489s]                  from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+[18.518s]                  from [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:2[m[K:
+[18.520s] [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class ParameterT> bool rclcpp::Node::get_parameter_or(const string&, ParameterT&, const ParameterT&) const
+[18.521s]    [01;36m[Kget_parameter_or[m[K(
+[18.541s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[18.542s] [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.543s] [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:28:94:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst ParameterT[m[K’ (‘[01m[Kshort unsigned int[m[K’ and ‘[01m[Krclcpp::Parameter[m[K’)
+[18.544s]          this->get_parameter_or("frame_rate", frame_rate, rclcpp::Parameter("frame_rate", 120)[01;36m[K)[m[K;
+[18.544s]                                                                                               [01;36m[K^[m[K
+[18.573s] [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:29:89:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KFrontCamPublisher::get_parameter_or(const char [10], uint16_t&, rclcpp::Parameter)[m[K’
+[18.575s]          this->get_parameter_or("device_id", device_id, rclcpp::Parameter("device_id", 0)[01;31m[K)[m[K;
+[18.575s]                                                                                          [01;31m[K^[m[K
+[18.576s] In file included from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+[18.577s]                  from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+[18.582s]                  from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+[18.583s]                  from [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:2[m[K:
+[18.584s] [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class ParameterT> bool rclcpp::Node::get_parameter_or(const string&, ParameterT&, const ParameterT&) const
+[18.585s]    [01;36m[Kget_parameter_or[m[K(
+[18.606s]    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[18.607s] [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.608s] [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:29:89:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst ParameterT[m[K’ (‘[01m[Kshort unsigned int[m[K’ and ‘[01m[Krclcpp::Parameter[m[K’)
+[18.609s]          this->get_parameter_or("device_id", device_id, rclcpp::Parameter("device_id", 0)[01;36m[K)[m[K;
+[18.618s]                                                                                          [01;36m[K^[m[K
+[23.798s] make[2]: *** [CMakeFiles/front_cam_node.dir/src/front_cam_node.cpp.o] Error 1
+[23.806s] CMakeFiles/front_cam_node.dir/build.make:62: recipe for target 'CMakeFiles/front_cam_node.dir/src/front_cam_node.cpp.o' failed
+[23.807s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/front_cam_node.dir/all' failed
+[23.808s] make[1]: *** [CMakeFiles/front_cam_node.dir/all] Error 2
+[23.809s] Makefile:140: recipe for target 'all' failed
+[23.810s] make: *** [all] Error 2
+[23.829s] Invoked command in '/home/jetson/JetAutonomy/ros2/build/front_cam' returned '2': /usr/bin/cmake --build /home/jetson/JetAutonomy/ros2/build/front_cam -- -j2 -l2

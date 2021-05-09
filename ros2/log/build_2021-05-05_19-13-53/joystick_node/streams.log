@@ -1,0 +1,37 @@
+[9.810s] Invoking command in '/home/jetson/JetAutonomy/ros/src/joystick': AMENT_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/JetAutonomy/ros/install/joystick_node/lib/python3.6/site-packages:/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_node build --build-base /home/jetson/JetAutonomy/ros/build/joystick_node/build install --prefix /home/jetson/JetAutonomy/ros/install/joystick_node --record /home/jetson/JetAutonomy/ros/build/joystick_node/install.log --single-version-externally-managed
+[18.488s] running egg_info
+[18.502s] creating ../../build/joystick_node/joystick_node.egg-info
+[18.514s] writing ../../build/joystick_node/joystick_node.egg-info/PKG-INFO
+[18.527s] writing dependency_links to ../../build/joystick_node/joystick_node.egg-info/dependency_links.txt
+[18.529s] writing entry points to ../../build/joystick_node/joystick_node.egg-info/entry_points.txt
+[18.532s] writing requirements to ../../build/joystick_node/joystick_node.egg-info/requires.txt
+[18.534s] writing top-level names to ../../build/joystick_node/joystick_node.egg-info/top_level.txt
+[18.625s] writing manifest file '../../build/joystick_node/joystick_node.egg-info/SOURCES.txt'
+[19.105s] file joystick_node_node.py (for module joystick_node_node) not found
+[19.127s] reading manifest file '../../build/joystick_node/joystick_node.egg-info/SOURCES.txt'
+[19.144s] writing manifest file '../../build/joystick_node/joystick_node.egg-info/SOURCES.txt'
+[19.155s] running build
+[19.156s] running build_py
+[19.158s] file joystick_node_node.py (for module joystick_node_node) not found
+[19.163s] creating /home/jetson/JetAutonomy/ros/build/joystick_node/build
+[19.165s] creating /home/jetson/JetAutonomy/ros/build/joystick_node/build/lib
+[19.168s] creating /home/jetson/JetAutonomy/ros/build/joystick_node/build/lib/joystick_node
+[19.171s] copying joystick_node/gamepad.py -> /home/jetson/JetAutonomy/ros/build/joystick_node/build/lib/joystick_node
+[19.175s] copying joystick_node/joystick_node.py -> /home/jetson/JetAutonomy/ros/build/joystick_node/build/lib/joystick_node
+[19.179s] copying joystick_node/__init__.py -> /home/jetson/JetAutonomy/ros/build/joystick_node/build/lib/joystick_node
+[19.182s] file joystick_node_node.py (for module joystick_node_node) not found
+[19.185s] running install
+[19.194s] running install_lib
+[19.206s] creating /home/jetson/JetAutonomy/ros/install/joystick_node/lib/python3.6/site-packages/joystick_node
+[19.210s] copying /home/jetson/JetAutonomy/ros/build/joystick_node/build/lib/joystick_node/gamepad.py -> /home/jetson/JetAutonomy/ros/install/joystick_node/lib/python3.6/site-packages/joystick_node
+[19.214s] copying /home/jetson/JetAutonomy/ros/build/joystick_node/build/lib/joystick_node/joystick_node.py -> /home/jetson/JetAutonomy/ros/install/joystick_node/lib/python3.6/site-packages/joystick_node
+[19.218s] copying /home/jetson/JetAutonomy/ros/build/joystick_node/build/lib/joystick_node/__init__.py -> /home/jetson/JetAutonomy/ros/install/joystick_node/lib/python3.6/site-packages/joystick_node
+[19.274s] byte-compiling /home/jetson/JetAutonomy/ros/install/joystick_node/lib/python3.6/site-packages/joystick_node/gamepad.py to gamepad.cpython-36.pyc
+[19.291s] byte-compiling /home/jetson/JetAutonomy/ros/install/joystick_node/lib/python3.6/site-packages/joystick_node/joystick_node.py to joystick_node.cpython-36.pyc
+[19.302s] byte-compiling /home/jetson/JetAutonomy/ros/install/joystick_node/lib/python3.6/site-packages/joystick_node/__init__.py to __init__.cpython-36.pyc
+[19.306s] running install_data
+[19.318s] creating /home/jetson/JetAutonomy/ros/install/joystick_node/share/ament_index
+[19.321s] creating /home/jetson/JetAutonomy/ros/install/joystick_node/share/ament_index/resource_index
+[19.323s] creating /home/jetson/JetAutonomy/ros/install/joystick_node/share/ament_index/resource_index/packages
+[19.326s] error: can't copy 'resources/joystick_node': doesn't exist or not a regular file
+[19.589s] Invoked command in '/home/jetson/JetAutonomy/ros/src/joystick' returned '1': AMENT_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/JetAutonomy/ros/install/joystick_node/lib/python3.6/site-packages:/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_node build --build-base /home/jetson/JetAutonomy/ros/build/joystick_node/build install --prefix /home/jetson/JetAutonomy/ros/install/joystick_node --record /home/jetson/JetAutonomy/ros/build/joystick_node/install.log --single-version-externally-managed

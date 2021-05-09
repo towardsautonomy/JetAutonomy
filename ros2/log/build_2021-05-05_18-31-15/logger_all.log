@@ -1,0 +1,144 @@
+[7.330s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'joystick']
+[7.331s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f972b0c50>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['joystick'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f972b0c50>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f972b0fd0>)
+[7.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[7.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.490s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/JetAutonomy/ros'
+[7.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[7.495s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[7.497s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[7.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[7.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[7.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[7.505s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[7.506s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[7.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[7.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[7.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[7.693s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[7.695s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[7.697s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[7.699s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[7.701s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[7.703s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[7.708s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[7.710s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[7.712s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[7.714s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[7.716s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[7.718s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[7.720s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[7.722s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[7.724s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[7.726s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[7.728s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[7.729s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[7.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[7.733s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[7.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[7.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[7.739s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[7.741s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[7.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[7.745s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[7.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extensions ['ignore', 'ignore_ament_install']
+[7.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extension 'ignore'
+[7.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extension 'ignore_ament_install'
+[7.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extensions ['colcon_pkg']
+[7.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extension 'colcon_pkg'
+[7.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extensions ['colcon_meta']
+[7.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extension 'colcon_meta'
+[7.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extensions ['ros']
+[7.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extension 'ros'
+[7.781s] DEBUG:colcon.colcon_core.package_identification:Package 'src/front_cam' with type 'ros.ament_cmake' and name 'front_cam'
+[7.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extensions ['ignore', 'ignore_ament_install']
+[7.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extension 'ignore'
+[7.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extension 'ignore_ament_install'
+[7.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extensions ['colcon_pkg']
+[7.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extension 'colcon_pkg'
+[7.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extensions ['colcon_meta']
+[7.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extension 'colcon_meta'
+[7.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extensions ['ros']
+[7.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_autonomy_msgs) by extension 'ros'
+[7.806s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jet_autonomy_msgs' with type 'ros.ament_cmake' and name 'jet_autonomy_msgs'
+[7.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extensions ['ignore', 'ignore_ament_install']
+[7.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extension 'ignore'
+[7.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extension 'ignore_ament_install'
+[7.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extensions ['colcon_pkg']
+[7.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extension 'colcon_pkg'
+[7.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extensions ['colcon_meta']
+[7.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extension 'colcon_meta'
+[7.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extensions ['ros']
+[7.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extension 'ros'
+[7.834s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jet_drive' with type 'ros.catkin' and name 'jet_drive'
+[7.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['ignore', 'ignore_ament_install']
+[7.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'ignore'
+[7.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'ignore_ament_install'
+[7.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['colcon_pkg']
+[7.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'colcon_pkg'
+[7.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['colcon_meta']
+[7.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'colcon_meta'
+[7.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['ros']
+[7.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'ros'
+[7.866s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick' with type 'ros.catkin' and name 'joystick'
+[7.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.870s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.255s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'front_cam' in 'src/front_cam'
+[8.257s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jet_autonomy_msgs' in 'src/jet_autonomy_msgs'
+[8.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jet_drive' in 'src/jet_drive'
+[8.314s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_args' from command line to 'None'
+[8.316s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_target' from command line to 'None'
+[8.317s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.321s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_clean_cache' from command line to 'False'
+[8.323s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_clean_first' from command line to 'False'
+[8.324s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'cmake_force_configure' from command line to 'False'
+[8.324s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'ament_cmake_args' from command line to 'None'
+[8.325s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'catkin_cmake_args' from command line to 'None'
+[8.325s] Level 5:colcon.colcon_core.verb:set package 'joystick' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.326s] DEBUG:colcon.colcon_core.verb:Building package 'joystick' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/JetAutonomy/ros/build/joystick', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/JetAutonomy/ros/install/joystick', 'merge_install': False, 'path': '/home/jetson/JetAutonomy/ros/src/joystick', 'symlink_install': False, 'test_result_base': None}
+[8.330s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.362s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.369s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/jetson/JetAutonomy/ros/src/joystick' with build type 'catkin'
+[8.373s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/JetAutonomy/ros/src/joystick'
+[8.450s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.454s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/JetAutonomy/ros/build/joystick': AMENT_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/JetAutonomy/ros/src/joystick -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jetson/JetAutonomy/ros/install/joystick
+[38.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/JetAutonomy/ros/build/joystick' returned '1': AMENT_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/JetAutonomy/ros/src/joystick -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jetson/JetAutonomy/ros/install/joystick
+[38.525s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick)
+[38.602s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros/install/joystick' for CMake module files
+[38.610s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros/install/joystick' for CMake config files
+[38.617s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros/install/joystick/bin'
+[38.620s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros/install/joystick/lib/pkgconfig/joystick.pc'
+[38.623s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages'
+[38.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetAutonomy/ros/install/joystick/share/joystick/package.ps1'
+[38.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/JetAutonomy/ros/install/joystick/share/joystick/package.dsv'
+[38.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetAutonomy/ros/install/joystick/share/joystick/package.sh'
+[38.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetAutonomy/ros/install/joystick/share/joystick/package.bash'
+[38.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetAutonomy/ros/install/joystick/share/joystick/package.zsh'
+[38.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/JetAutonomy/ros/install/joystick/share/colcon-core/packages/joystick)
+[38.726s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[38.731s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[38.731s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[38.733s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[38.870s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[38.872s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[38.874s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[38.884s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[38.887s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[38.897s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/JetAutonomy/ros/install/local_setup.ps1'
+[38.913s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/JetAutonomy/ros/install/_local_setup_util_ps1.py'
+[38.935s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/JetAutonomy/ros/install/setup.ps1'
+[39.081s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/JetAutonomy/ros/install/local_setup.sh'
+[39.087s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/JetAutonomy/ros/install/_local_setup_util_sh.py'
+[39.092s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/JetAutonomy/ros/install/setup.sh'
+[39.236s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/JetAutonomy/ros/install/local_setup.bash'
+[39.242s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/JetAutonomy/ros/install/setup.bash'
+[39.390s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/JetAutonomy/ros/install/local_setup.zsh'
+[39.404s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/JetAutonomy/ros/install/setup.zsh'

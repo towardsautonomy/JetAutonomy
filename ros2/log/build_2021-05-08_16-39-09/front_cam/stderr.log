@@ -1,0 +1,260 @@
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:45:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+             RCLCPP_INFO(this->get_logger(), [01;35m[K"[m[KUsing defaults camera parameters:
+                                             [01;35m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:115:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+                                              \n\theight\t: %d\n\nwidth\t: %d\n\frame_rate\t: %d\n\tdevice_id\t: %d[01;35m[K"[m[K,
+                                                                                                                   [01;35m[K^[m[K
+In file included from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/client.hpp:39:0[m[K,
+                 from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:2[m[K:
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:45:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+             RCLCPP_INFO(this->get_logger(), [01;31m[K"[m[KUsing defaults camera parameters:
+                                             [01;31m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:46:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+                                              [01;31m[K\[m[Kn\theight\t: %d\n\nwidth\t: %d\n\frame_rate\t: %d\n\tdevice_id\t: %d",
+                                              [01;31m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:48:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+                                              \n[01;31m[K\[m[Ktheight\t: %d\n\nwidth\t: %d\n\frame_rate\t: %d\n\tdevice_id\t: %d",
+                                                [01;31m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:56:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+                                              \n\theight[01;31m[K\[m[Kt: %d\n\nwidth\t: %d\n\frame_rate\t: %d\n\tdevice_id\t: %d",
+                                                        [01;31m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:62:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+                                              \n\theight\t: %d[01;31m[K\[m[Kn\nwidth\t: %d\n\frame_rate\t: %d\n\tdevice_id\t: %d",
+                                                              [01;31m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:64:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+                                              \n\theight\t: %d\n[01;31m[K\[m[Knwidth\t: %d\n\frame_rate\t: %d\n\tdevice_id\t: %d",
+                                                                [01;31m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:71:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+                                              \n\theight\t: %d\n\nwidth[01;31m[K\[m[Kt: %d\n\frame_rate\t: %d\n\tdevice_id\t: %d",
+                                                                       [01;31m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:77:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+                                              \n\theight\t: %d\n\nwidth\t: %d[01;31m[K\[m[Kn\frame_rate\t: %d\n\tdevice_id\t: %d",
+                                                                             [01;31m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:79:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+                                              \n\theight\t: %d\n\nwidth\t: %d\n[01;31m[K\[m[Kframe_rate\t: %d\n\tdevice_id\t: %d",
+                                                                               [01;31m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:90:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+                                              \n\theight\t: %d\n\nwidth\t: %d\n\frame_rate[01;31m[K\[m[Kt: %d\n\tdevice_id\t: %d",
+                                                                                          [01;31m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:96:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+                                              \n\theight\t: %d\n\nwidth\t: %d\n\frame_rate\t: %d[01;31m[K\[m[Kn\tdevice_id\t: %d",
+                                                                                                [01;31m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:98:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+                                              \n\theight\t: %d\n\nwidth\t: %d\n\frame_rate\t: %d\n[01;31m[K\[m[Ktdevice_id\t: %d",
+                                                                                                  [01;31m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:109:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+                                              \n\theight\t: %d\n\nwidth\t: %d\n\frame_rate\t: %d\n\tdevice_id[01;31m[K\[m[Kt: %d",
+                                                                                                             [01;31m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:115:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+                                              \n\theight\t: %d\n\nwidth\t: %d\n\frame_rate\t: %d\n\tdevice_id\t: %d[01;31m[K"[m[K,
+                                                                                                                   [01;31m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:[m[K In constructor ‘[01m[KFrontCamPublisher::FrontCamPublisher()[m[K’:
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope
+                                              \[01;31m[Kn[m[K\theight\t: %d\n\nwidth\t: %d\n\frame_rate\t: %d\n\tdevice_id\t: %d",
+                                               [01;31m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:34:47:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kyn[m[K’
+                                              \[01;36m[Kn[m[K\theight\t: %d\n\nwidth\t: %d\n\frame_rate\t: %d\n\tdevice_id\t: %d",
+                                               [01;36m[K^[m[K
+[01m[K/home/jetson/ros2_dashing/install/rcutils/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+       rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+                                                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+     [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/logging.hpp:220:28:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_FIRST_ARG[m[K’
+       rclcpp::get_c_string([01;36m[KRCLCPP_FIRST_ARG[m[K(__VA_ARGS__, "")), \
+                            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:33:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+             [01;36m[KR[m[KCLCPP_INFO(this->get_logger(), "Using defaults camera parameters:
+             [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/front_cam_node.dir/src/front_cam_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/front_cam_node.dir/all] Error 2
+make: *** [all] Error 2

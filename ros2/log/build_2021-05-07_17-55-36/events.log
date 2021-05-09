@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000767] (-) JobUnselected: {'identifier': 'front_cam'}
+[0.001066] (-) JobUnselected: {'identifier': 'jet_autonomy_msgs'}
+[0.001314] (-) JobUnselected: {'identifier': 'jet_drive_moderator'}
+[0.001540] (-) JobUnselected: {'identifier': 'joystick'}
+[0.001761] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.002024] (jet_drive) JobQueued: {'identifier': 'jet_drive', 'dependencies': OrderedDict([('jet_autonomy_msgs', '/home/jetson/JetAutonomy/ros2/install/jet_autonomy_msgs')])}
+[0.002341] (jet_drive) JobStarted: {'identifier': 'jet_drive'}
+[0.089705] (-) TimerEvent: {}
+[0.196327] (-) TimerEvent: {}
+[0.297375] (-) TimerEvent: {}
+[0.400528] (-) TimerEvent: {}
+[0.502705] (-) TimerEvent: {}
+[0.603875] (-) TimerEvent: {}
+[0.710495] (-) TimerEvent: {}
+[0.811486] (-) TimerEvent: {}
+[0.914152] (-) TimerEvent: {}
+[1.017381] (-) TimerEvent: {}
+[1.120010] (-) TimerEvent: {}
+[1.222131] (-) TimerEvent: {}
+[1.323116] (-) TimerEvent: {}
+[1.425880] (-) TimerEvent: {}
+[1.527877] (-) TimerEvent: {}
+[1.630322] (-) TimerEvent: {}
+[1.733045] (-) TimerEvent: {}
+[1.836294] (-) TimerEvent: {}
+[1.945676] (-) TimerEvent: {}
+[2.048485] (-) TimerEvent: {}
+[2.153156] (-) TimerEvent: {}
+[2.254144] (-) TimerEvent: {}
+[2.363053] (-) TimerEvent: {}
+[2.465222] (-) TimerEvent: {}
+[2.568867] (-) TimerEvent: {}
+[2.671699] (-) TimerEvent: {}
+[2.774304] (-) TimerEvent: {}
+[2.876944] (-) TimerEvent: {}
+[2.980207] (-) TimerEvent: {}
+[3.083655] (-) TimerEvent: {}
+[3.186374] (-) TimerEvent: {}
+[3.288690] (-) TimerEvent: {}
+[3.392465] (-) TimerEvent: {}
+[3.495211] (-) TimerEvent: {}
+[3.598425] (-) TimerEvent: {}
+[3.701931] (-) TimerEvent: {}
+[3.805416] (-) TimerEvent: {}
+[3.908047] (-) TimerEvent: {}
+[4.022587] (-) TimerEvent: {}
+[4.123593] (-) TimerEvent: {}
+[4.232799] (-) TimerEvent: {}
+[4.335343] (-) TimerEvent: {}
+[4.438228] (-) TimerEvent: {}
+[4.540962] (-) TimerEvent: {}
+[4.628224] (jet_drive) JobEnded: {'identifier': 'jet_drive', 'rc': 0}
+[4.640596] (-) EventReactorShutdown: {}

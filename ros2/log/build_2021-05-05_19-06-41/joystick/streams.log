@@ -1,0 +1,33 @@
+[10.232s] Invoking command in '/home/jetson/JetAutonomy/ros/src/joystick': AMENT_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages:/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick build --build-base /home/jetson/JetAutonomy/ros/build/joystick/build install --prefix /home/jetson/JetAutonomy/ros/install/joystick --record /home/jetson/JetAutonomy/ros/build/joystick/install.log --single-version-externally-managed
+[19.254s] running egg_info
+[19.266s] writing ../../build/joystick/joystick.egg-info/PKG-INFO
+[19.281s] writing dependency_links to ../../build/joystick/joystick.egg-info/dependency_links.txt
+[19.289s] writing entry points to ../../build/joystick/joystick.egg-info/entry_points.txt
+[19.291s] writing requirements to ../../build/joystick/joystick.egg-info/requires.txt
+[19.292s] writing top-level names to ../../build/joystick/joystick.egg-info/top_level.txt
+[19.740s] file joystick_node.py (for module joystick_node) not found
+[19.741s] package init file 'joystick/__init__.py' not found (or not a regular file)
+[19.756s] reading manifest file '../../build/joystick/joystick.egg-info/SOURCES.txt'
+[19.771s] writing manifest file '../../build/joystick/joystick.egg-info/SOURCES.txt'
+[19.774s] running build
+[19.775s] running build_py
+[19.776s] file joystick_node.py (for module joystick_node) not found
+[19.783s] file joystick_node.py (for module joystick_node) not found
+[19.788s] creating /home/jetson/JetAutonomy/ros/build/joystick/build
+[19.789s] creating /home/jetson/JetAutonomy/ros/build/joystick/build/lib
+[19.790s] creating /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick
+[19.791s] copying joystick/gamepad.py -> /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick
+[19.791s] copying joystick/joystick_node.py -> /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick
+[19.792s] running install
+[19.798s] running install_lib
+[19.803s] creating /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick
+[19.808s] copying /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick/gamepad.py -> /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick
+[19.810s] copying /home/jetson/JetAutonomy/ros/build/joystick/build/lib/joystick/joystick_node.py -> /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick
+[19.836s] byte-compiling /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick/gamepad.py to gamepad.cpython-36.pyc
+[19.845s] byte-compiling /home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages/joystick/joystick_node.py to joystick_node.cpython-36.pyc
+[19.850s] running install_data
+[19.858s] creating /home/jetson/JetAutonomy/ros/install/joystick/share/ament_index
+[19.860s] creating /home/jetson/JetAutonomy/ros/install/joystick/share/ament_index/resource_index
+[19.863s] creating /home/jetson/JetAutonomy/ros/install/joystick/share/ament_index/resource_index/packages
+[19.870s] error: can't copy 'resource/joystick': doesn't exist or not a regular file
+[20.044s] Invoked command in '/home/jetson/JetAutonomy/ros/src/joystick' returned '1': AMENT_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages:/home/jetson/JetAutonomy/ros/install/jet_autonomy_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick build --build-base /home/jetson/JetAutonomy/ros/build/joystick/build install --prefix /home/jetson/JetAutonomy/ros/install/joystick --record /home/jetson/JetAutonomy/ros/build/joystick/install.log --single-version-externally-managed

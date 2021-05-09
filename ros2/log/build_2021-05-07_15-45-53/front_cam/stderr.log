@@ -1,0 +1,8 @@
+In file included from [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:7:0[m[K:
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/include/CSICamera.hpp:47:29:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Kthis[m[K’
+         std::thread thread_([01;31m[Kthis[m[K->capture_thread);
+                             [01;31m[K^~~~[m[K
+[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/include/CSICamera.hpp:47:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kthis[m[K’
+make[2]: *** [CMakeFiles/front_cam_node.dir/src/front_cam_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/front_cam_node.dir/all] Error 2
+make: *** [all] Error 2

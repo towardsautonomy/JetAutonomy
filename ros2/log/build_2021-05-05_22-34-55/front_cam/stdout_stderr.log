@@ -1,0 +1,31 @@
+-- Found ament_cmake: 0.7.6 (/home/jetson/ros2_dashing/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.7.15 (/home/jetson/ros2_dashing/install/rclcpp/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.7.10 (/home/jetson/ros2_dashing/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (/home/jetson/ros2_dashing/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 0.7.15 (/home/jetson/ros2_dashing/install/rclcpp_components/share/rclcpp_components/cmake)
+-- Found poco_vendor:  (/home/jetson/ros2_dashing/install/poco_vendor/share/poco_vendor/cmake)
+-- Found sensor_msgs: 0.7.0 (/home/jetson/ros2_dashing/install/sensor_msgs/share/sensor_msgs/cmake)
+CMake Error at CMakeLists.txt:23 (find_package):
+  By not providing "Findcv_bridge.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "cv_bridge", but CMake did not find one.
+
+  Could not find a package configuration file provided by "cv_bridge" with
+  any of the following names:
+
+    cv_bridgeConfig.cmake
+    cv_bridge-config.cmake
+
+  Add the installation prefix of "cv_bridge" to CMAKE_PREFIX_PATH or set
+  "cv_bridge_DIR" to a directory containing one of the above files.  If
+  "cv_bridge" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/jetson/JetAutonomy/ros/build/front_cam/CMakeFiles/CMakeOutput.log".
+See also "/home/jetson/JetAutonomy/ros/build/front_cam/CMakeFiles/CMakeError.log".
+Makefile:252: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1

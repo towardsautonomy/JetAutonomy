@@ -1,0 +1,298 @@
+[0.000000] (-) TimerEvent: {}
+[0.014662] (-) JobUnselected: {'identifier': 'jet_autonomy_msgs'}
+[0.015023] (-) JobUnselected: {'identifier': 'jet_drive'}
+[0.015262] (-) JobUnselected: {'identifier': 'jet_drive_moderator'}
+[0.015483] (-) JobUnselected: {'identifier': 'joystick'}
+[0.015693] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.015944] (front_cam) JobQueued: {'identifier': 'front_cam', 'dependencies': OrderedDict()}
+[0.023017] (front_cam) JobStarted: {'identifier': 'front_cam'}
+[0.104737] (-) TimerEvent: {}
+[0.177265] (front_cam) JobProgress: {'identifier': 'front_cam', 'progress': 'cmake'}
+[0.186242] (front_cam) JobProgress: {'identifier': 'front_cam', 'progress': 'build'}
+[0.192177] (front_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/JetAutonomy/ros2/build/front_cam', '--', '-j2', '-l2'], 'cwd': '/home/jetson/JetAutonomy/ros2/build/front_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/jetson'), ('USER', 'jetson'), ('SSH_CLIENT', '10.0.0.195 63951 22'), ('SHLVL', '1'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('SSH_TTY', '/dev/pts/0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jetson/JetAutonomy/ros2/build/front_cam'), ('SSH_CONNECTION', '10.0.0.195 63951 10.0.0.41 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1')]), 'shell': False}
+[0.214872] (-) TimerEvent: {}
+[0.316581] (-) TimerEvent: {}
+[0.426256] (-) TimerEvent: {}
+[0.534049] (-) TimerEvent: {}
+[0.553574] (front_cam) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target front_cam_node\x1b[0m\n'}
+[0.634279] (-) TimerEvent: {}
+[0.735335] (-) TimerEvent: {}
+[0.836927] (-) TimerEvent: {}
+[0.940666] (-) TimerEvent: {}
+[0.997911] (front_cam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/front_cam_node.dir/src/front_cam_node.cpp.o\x1b[0m\n'}
+[1.041331] (-) TimerEvent: {}
+[1.143009] (-) TimerEvent: {}
+[1.244020] (-) TimerEvent: {}
+[1.345407] (-) TimerEvent: {}
+[1.449554] (-) TimerEvent: {}
+[1.550541] (-) TimerEvent: {}
+[1.652280] (-) TimerEvent: {}
+[1.753355] (-) TimerEvent: {}
+[1.854378] (-) TimerEvent: {}
+[1.955372] (-) TimerEvent: {}
+[2.056365] (-) TimerEvent: {}
+[2.157429] (-) TimerEvent: {}
+[2.258422] (-) TimerEvent: {}
+[2.359424] (-) TimerEvent: {}
+[2.460438] (-) TimerEvent: {}
+[2.561469] (-) TimerEvent: {}
+[2.662463] (-) TimerEvent: {}
+[2.763460] (-) TimerEvent: {}
+[2.864826] (-) TimerEvent: {}
+[2.965904] (-) TimerEvent: {}
+[3.066950] (-) TimerEvent: {}
+[3.168006] (-) TimerEvent: {}
+[3.269054] (-) TimerEvent: {}
+[3.370207] (-) TimerEvent: {}
+[3.473238] (-) TimerEvent: {}
+[3.575731] (-) TimerEvent: {}
+[3.676801] (-) TimerEvent: {}
+[3.779860] (-) TimerEvent: {}
+[3.882060] (-) TimerEvent: {}
+[3.984329] (-) TimerEvent: {}
+[4.085360] (-) TimerEvent: {}
+[4.186378] (-) TimerEvent: {}
+[4.287395] (-) TimerEvent: {}
+[4.388601] (-) TimerEvent: {}
+[4.491931] (-) TimerEvent: {}
+[4.592929] (-) TimerEvent: {}
+[4.695236] (-) TimerEvent: {}
+[4.796237] (-) TimerEvent: {}
+[4.897293] (-) TimerEvent: {}
+[4.998512] (-) TimerEvent: {}
+[5.099567] (-) TimerEvent: {}
+[5.200588] (-) TimerEvent: {}
+[5.301644] (-) TimerEvent: {}
+[5.402660] (-) TimerEvent: {}
+[5.503682] (-) TimerEvent: {}
+[5.605465] (-) TimerEvent: {}
+[5.707668] (-) TimerEvent: {}
+[5.808689] (-) TimerEvent: {}
+[5.910105] (-) TimerEvent: {}
+[6.013354] (-) TimerEvent: {}
+[6.115597] (-) TimerEvent: {}
+[6.216598] (-) TimerEvent: {}
+[6.317689] (-) TimerEvent: {}
+[6.425378] (-) TimerEvent: {}
+[6.529738] (-) TimerEvent: {}
+[6.630767] (-) TimerEvent: {}
+[6.732203] (-) TimerEvent: {}
+[6.833297] (-) TimerEvent: {}
+[6.934325] (-) TimerEvent: {}
+[7.035929] (-) TimerEvent: {}
+[7.136923] (-) TimerEvent: {}
+[7.237974] (-) TimerEvent: {}
+[7.338985] (-) TimerEvent: {}
+[7.440026] (-) TimerEvent: {}
+[7.541045] (-) TimerEvent: {}
+[7.653344] (-) TimerEvent: {}
+[7.760956] (-) TimerEvent: {}
+[7.862015] (-) TimerEvent: {}
+[7.963036] (-) TimerEvent: {}
+[8.064030] (-) TimerEvent: {}
+[8.165035] (-) TimerEvent: {}
+[8.266242] (-) TimerEvent: {}
+[8.367281] (-) TimerEvent: {}
+[8.470911] (-) TimerEvent: {}
+[8.571930] (-) TimerEvent: {}
+[8.672939] (-) TimerEvent: {}
+[8.773982] (-) TimerEvent: {}
+[8.875026] (-) TimerEvent: {}
+[8.976068] (-) TimerEvent: {}
+[9.077133] (-) TimerEvent: {}
+[9.178148] (-) TimerEvent: {}
+[9.279186] (-) TimerEvent: {}
+[9.380306] (-) TimerEvent: {}
+[9.481379] (-) TimerEvent: {}
+[9.583546] (-) TimerEvent: {}
+[9.686372] (-) TimerEvent: {}
+[9.787373] (-) TimerEvent: {}
+[9.888467] (-) TimerEvent: {}
+[9.989535] (-) TimerEvent: {}
+[10.090569] (-) TimerEvent: {}
+[10.191572] (-) TimerEvent: {}
+[10.292576] (-) TimerEvent: {}
+[10.393728] (-) TimerEvent: {}
+[10.494956] (-) TimerEvent: {}
+[10.595939] (-) TimerEvent: {}
+[10.696911] (-) TimerEvent: {}
+[10.798249] (-) TimerEvent: {}
+[10.899242] (-) TimerEvent: {}
+[11.000323] (-) TimerEvent: {}
+[11.101425] (-) TimerEvent: {}
+[11.202454] (-) TimerEvent: {}
+[11.305603] (-) TimerEvent: {}
+[11.407881] (-) TimerEvent: {}
+[11.511087] (-) TimerEvent: {}
+[11.613563] (-) TimerEvent: {}
+[11.714611] (-) TimerEvent: {}
+[11.821339] (-) TimerEvent: {}
+[11.922410] (-) TimerEvent: {}
+[12.026437] (-) TimerEvent: {}
+[12.127454] (-) TimerEvent: {}
+[12.228453] (-) TimerEvent: {}
+[12.329462] (-) TimerEvent: {}
+[12.430471] (-) TimerEvent: {}
+[12.531484] (-) TimerEvent: {}
+[12.645306] (-) TimerEvent: {}
+[12.746330] (-) TimerEvent: {}
+[12.850309] (-) TimerEvent: {}
+[12.953196] (-) TimerEvent: {}
+[13.054228] (-) TimerEvent: {}
+[13.155264] (-) TimerEvent: {}
+[13.256290] (-) TimerEvent: {}
+[13.357553] (-) TimerEvent: {}
+[13.461609] (-) TimerEvent: {}
+[13.562625] (-) TimerEvent: {}
+[13.663725] (-) TimerEvent: {}
+[13.764738] (-) TimerEvent: {}
+[13.869339] (-) TimerEvent: {}
+[13.970372] (-) TimerEvent: {}
+[14.071777] (-) TimerEvent: {}
+[14.174389] (-) TimerEvent: {}
+[14.277358] (-) TimerEvent: {}
+[14.378429] (-) TimerEvent: {}
+[14.479529] (-) TimerEvent: {}
+[14.580544] (-) TimerEvent: {}
+[14.681587] (-) TimerEvent: {}
+[14.782603] (-) TimerEvent: {}
+[14.883606] (-) TimerEvent: {}
+[14.984654] (-) TimerEvent: {}
+[15.086169] (-) TimerEvent: {}
+[15.188340] (-) TimerEvent: {}
+[15.289788] (-) TimerEvent: {}
+[15.392708] (-) TimerEvent: {}
+[15.494568] (-) TimerEvent: {}
+[15.596241] (-) TimerEvent: {}
+[15.697310] (-) TimerEvent: {}
+[15.799022] (-) TimerEvent: {}
+[15.900040] (-) TimerEvent: {}
+[16.001043] (-) TimerEvent: {}
+[16.102090] (-) TimerEvent: {}
+[16.203091] (-) TimerEvent: {}
+[16.304056] (-) TimerEvent: {}
+[16.405321] (-) TimerEvent: {}
+[16.506367] (-) TimerEvent: {}
+[16.520016] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KFrontCamPublisher::FrontCamPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.521318] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:29:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KFrontCamPublisher::get_parameter_or(const char [6], uint16_t&, rclcpp::Parameter)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.522275] (front_cam) StderrLine: {'line': b'         this->get_parameter_or("width", width, rclcpp::Parameter("width", 1280)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.523113] (front_cam) StderrLine: {'line': b'                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.525217] (front_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28:0\x1b[m\x1b[K,\n'}
+[16.526472] (front_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[16.527806] (front_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[16.530119] (front_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:2\x1b[m\x1b[K:\n'}
+[16.530991] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class ParameterT> bool rclcpp::Node::get_parameter_or(const string&, ParameterT&, const ParameterT&) const\n'}
+[16.531733] (front_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kget_parameter_or\x1b[m\x1b[K(\n'}
+[16.532446] (front_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.533201] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[16.544753] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:29:80:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst ParameterT\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kshort unsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Parameter\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[16.554746] (front_cam) StderrLine: {'line': b'         this->get_parameter_or("width", width, rclcpp::Parameter("width", 1280)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.555793] (front_cam) StderrLine: {'line': b'                                                                                \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[16.556775] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:30:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KFrontCamPublisher::get_parameter_or(const char [7], uint16_t&, rclcpp::Parameter)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.557801] (front_cam) StderrLine: {'line': b'         this->get_parameter_or("height", height, rclcpp::Parameter("height", 720)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.558594] (front_cam) StderrLine: {'line': b'                                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.559353] (front_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28:0\x1b[m\x1b[K,\n'}
+[16.560149] (front_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[16.560900] (front_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[16.569501] (front_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:2\x1b[m\x1b[K:\n'}
+[16.570368] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class ParameterT> bool rclcpp::Node::get_parameter_or(const string&, ParameterT&, const ParameterT&) const\n'}
+[16.571132] (front_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kget_parameter_or\x1b[m\x1b[K(\n'}
+[16.571908] (front_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.572673] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[16.573521] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:30:82:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst ParameterT\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kshort unsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Parameter\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[16.574335] (front_cam) StderrLine: {'line': b'         this->get_parameter_or("height", height, rclcpp::Parameter("height", 720)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.575086] (front_cam) StderrLine: {'line': b'                                                                                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[16.575848] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:31:94:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KFrontCamPublisher::get_parameter_or(const char [11], uint16_t&, rclcpp::Parameter)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.576687] (front_cam) StderrLine: {'line': b'         this->get_parameter_or("frame_rate", frame_rate, rclcpp::Parameter("frame_rate", 120)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.580232] (front_cam) StderrLine: {'line': b'                                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.581088] (front_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28:0\x1b[m\x1b[K,\n'}
+[16.581979] (front_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[16.582774] (front_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[16.583538] (front_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:2\x1b[m\x1b[K:\n'}
+[16.584272] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class ParameterT> bool rclcpp::Node::get_parameter_or(const string&, ParameterT&, const ParameterT&) const\n'}
+[16.585002] (front_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kget_parameter_or\x1b[m\x1b[K(\n'}
+[16.585815] (front_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.586622] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[16.587379] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:31:94:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst ParameterT\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kshort unsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Parameter\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[16.588158] (front_cam) StderrLine: {'line': b'         this->get_parameter_or("frame_rate", frame_rate, rclcpp::Parameter("frame_rate", 120)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.588918] (front_cam) StderrLine: {'line': b'                                                                                              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[16.602080] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:32:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KFrontCamPublisher::get_parameter_or(const char [10], uint16_t&, rclcpp::Parameter)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.602941] (front_cam) StderrLine: {'line': b'         this->get_parameter_or("device_id", device_id, rclcpp::Parameter("device_id", 0)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.603720] (front_cam) StderrLine: {'line': b'                                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.604481] (front_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28:0\x1b[m\x1b[K,\n'}
+[16.605310] (front_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[16.606100] (front_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[16.606821] (-) TimerEvent: {}
+[16.613736] (front_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:2\x1b[m\x1b[K:\n'}
+[16.614717] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class ParameterT> bool rclcpp::Node::get_parameter_or(const string&, ParameterT&, const ParameterT&) const\n'}
+[16.615675] (front_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[Kget_parameter_or\x1b[m\x1b[K(\n'}
+[16.616471] (front_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.617236] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros2_dashing/install/rclcpp/include/rclcpp/node.hpp:732:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[16.617988] (front_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:32:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst ParameterT\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kshort unsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Parameter\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[16.618783] (front_cam) StderrLine: {'line': b'         this->get_parameter_or("device_id", device_id, rclcpp::Parameter("device_id", 0)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.619515] (front_cam) StderrLine: {'line': b'                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[16.707161] (-) TimerEvent: {}
+[16.808197] (-) TimerEvent: {}
+[16.909714] (-) TimerEvent: {}
+[17.010738] (-) TimerEvent: {}
+[17.111779] (-) TimerEvent: {}
+[17.212868] (-) TimerEvent: {}
+[17.313981] (-) TimerEvent: {}
+[17.415261] (-) TimerEvent: {}
+[17.516305] (-) TimerEvent: {}
+[17.617335] (-) TimerEvent: {}
+[17.718381] (-) TimerEvent: {}
+[17.819382] (-) TimerEvent: {}
+[17.922159] (-) TimerEvent: {}
+[18.024548] (-) TimerEvent: {}
+[18.127073] (-) TimerEvent: {}
+[18.232871] (-) TimerEvent: {}
+[18.333879] (-) TimerEvent: {}
+[18.434966] (-) TimerEvent: {}
+[18.535990] (-) TimerEvent: {}
+[18.637287] (-) TimerEvent: {}
+[18.739555] (-) TimerEvent: {}
+[18.840645] (-) TimerEvent: {}
+[18.941932] (-) TimerEvent: {}
+[19.042977] (-) TimerEvent: {}
+[19.144012] (-) TimerEvent: {}
+[19.245083] (-) TimerEvent: {}
+[19.353045] (-) TimerEvent: {}
+[19.454079] (-) TimerEvent: {}
+[19.556778] (-) TimerEvent: {}
+[19.660107] (-) TimerEvent: {}
+[19.761139] (-) TimerEvent: {}
+[19.862736] (-) TimerEvent: {}
+[19.964359] (-) TimerEvent: {}
+[20.065386] (-) TimerEvent: {}
+[20.166390] (-) TimerEvent: {}
+[20.267420] (-) TimerEvent: {}
+[20.368449] (-) TimerEvent: {}
+[20.469516] (-) TimerEvent: {}
+[20.570557] (-) TimerEvent: {}
+[20.672287] (-) TimerEvent: {}
+[20.774124] (-) TimerEvent: {}
+[20.875155] (-) TimerEvent: {}
+[20.976214] (-) TimerEvent: {}
+[21.077346] (-) TimerEvent: {}
+[21.180363] (-) TimerEvent: {}
+[21.283480] (-) TimerEvent: {}
+[21.385316] (-) TimerEvent: {}
+[21.488378] (-) TimerEvent: {}
+[21.589446] (-) TimerEvent: {}
+[21.690527] (-) TimerEvent: {}
+[21.792033] (-) TimerEvent: {}
+[21.825537] (front_cam) StdoutLine: {'line': b"CMakeFiles/front_cam_node.dir/build.make:62: recipe for target 'CMakeFiles/front_cam_node.dir/src/front_cam_node.cpp.o' failed\n"}
+[21.834865] (front_cam) StderrLine: {'line': b'make[2]: *** [CMakeFiles/front_cam_node.dir/src/front_cam_node.cpp.o] Error 1\n'}
+[21.835914] (front_cam) StderrLine: {'line': b'make[1]: *** [CMakeFiles/front_cam_node.dir/all] Error 2\n'}
+[21.854054] (front_cam) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[21.855494] (front_cam) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/front_cam_node.dir/all' failed\n"}
+[21.856509] (front_cam) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[21.869887] (front_cam) CommandEnded: {'returncode': 2}
+[21.892303] (-) TimerEvent: {}
+[21.994109] (-) TimerEvent: {}
+[22.100959] (-) TimerEvent: {}
+[22.204916] (-) TimerEvent: {}
+[22.305558] (front_cam) JobEnded: {'identifier': 'front_cam', 'rc': 2}
+[22.313267] (-) TimerEvent: {}
+[22.323813] (-) EventReactorShutdown: {}
