@@ -1,7 +1,0 @@
-In file included from [01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/src/front_cam_node.cpp:7:0[m[K:
-[01m[K/home/jetson/JetAutonomy/ros2/src/front_cam/include/CSICamera.hpp:47:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcapture_thread[m[K’ is not a type
-         std::thread thread_([01;31m[Kcapture_thread[m[K);
-                             [01;31m[K^~~~~~~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/front_cam_node.dir/src/front_cam_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/front_cam_node.dir/all] Error 2
-make: *** [all] Error 2

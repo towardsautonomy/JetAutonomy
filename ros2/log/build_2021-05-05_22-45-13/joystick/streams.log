@@ -1,9 +1,0 @@
-[8.486s] Invoking command in '/home/jetson/JetAutonomy/ros/src/joystick': PYTHONPATH=/home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick build --build-base /home/jetson/JetAutonomy/ros/build/joystick/build install --prefix /home/jetson/JetAutonomy/ros/install/joystick --record /home/jetson/JetAutonomy/ros/build/joystick/install.log --single-version-externally-managed
-[16.147s] running egg_info
-[16.152s] writing ../../build/joystick/joystick.egg-info/PKG-INFO
-[16.153s] writing dependency_links to ../../build/joystick/joystick.egg-info/dependency_links.txt
-[16.155s] writing entry points to ../../build/joystick/joystick.egg-info/entry_points.txt
-[16.157s] writing requirements to ../../build/joystick/joystick.egg-info/requires.txt
-[16.157s] writing top-level names to ../../build/joystick/joystick.egg-info/top_level.txt
-[16.578s] error: package directory 'joystick' does not exist
-[16.697s] Invoked command in '/home/jetson/JetAutonomy/ros/src/joystick' returned '1': PYTHONPATH=/home/jetson/JetAutonomy/ros/install/joystick/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick build --build-base /home/jetson/JetAutonomy/ros/build/joystick/build install --prefix /home/jetson/JetAutonomy/ros/install/joystick --record /home/jetson/JetAutonomy/ros/build/joystick/install.log --single-version-externally-managed

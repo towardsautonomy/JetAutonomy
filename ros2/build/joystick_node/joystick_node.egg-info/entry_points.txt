@@ -1,3 +1,0 @@
-[console_scripts]
-joystick_node = joystick_node.publisher_member_function:main
-

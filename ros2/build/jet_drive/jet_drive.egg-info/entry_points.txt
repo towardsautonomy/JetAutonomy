@@ -1,3 +1,0 @@
-[console_scripts]
-jet_drive_node = jet_drive.jet_drive_node:main
-

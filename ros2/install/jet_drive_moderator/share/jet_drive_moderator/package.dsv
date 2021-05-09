@@ -1,8 +1,0 @@
-source;share/jet_drive_moderator/hook/cmake_prefix_path.ps1
-source;share/jet_drive_moderator/hook/cmake_prefix_path.dsv
-source;share/jet_drive_moderator/hook/cmake_prefix_path.sh
-source;share/jet_drive_moderator/local_setup.bash
-source;share/jet_drive_moderator/local_setup.dsv
-source;share/jet_drive_moderator/local_setup.ps1
-source;share/jet_drive_moderator/local_setup.sh
-source;share/jet_drive_moderator/local_setup.zsh

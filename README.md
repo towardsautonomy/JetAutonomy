@@ -6,7 +6,7 @@
 
 ```
 source ~/ros2_dashing/install/setup.bash
-git clone https://github.com/towardsautonomy/JetAutonomy.git
+git clone https://github.com/towardsautonomy/JetAutonomy.git --recursive
 cd JetAutonomy/ros2
 colcon build
 ```

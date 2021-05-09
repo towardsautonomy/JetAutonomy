@@ -1,2 +1,0 @@
-Invoking command in '/home/jetson/JetAutonomy/ros2/build/front_cam': /usr/bin/cmake --build /home/jetson/JetAutonomy/ros2/build/front_cam -- -j2 -l2
-Invoked command in '/home/jetson/JetAutonomy/ros2/build/front_cam' returned '2': /usr/bin/cmake --build /home/jetson/JetAutonomy/ros2/build/front_cam -- -j2 -l2

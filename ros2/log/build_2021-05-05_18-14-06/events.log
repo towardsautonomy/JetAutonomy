@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.004669] (-) JobUnselected: {'identifier': 'front_cam'}
-[0.005069] (-) JobUnselected: {'identifier': 'jet_autonomy_msgs'}
-[0.005322] (-) JobUnselected: {'identifier': 'jet_drive'}
-[0.005544] (-) JobUnselected: {'identifier': 'joystick'}
-[0.020873] (-) EventReactorShutdown: {}

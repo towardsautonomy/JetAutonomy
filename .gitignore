@@ -4,5 +4,6 @@ __pycache__/
 *.pyc
 
 # ignore ros builds
-ros/build/
-ros/devel/
+ros2/build/
+ros2/install/
+ros2/logs/
