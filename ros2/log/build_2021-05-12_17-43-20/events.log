@@ -1,9 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.004192] (-) JobUnselected: {'identifier': 'front_cam'}
-[0.004495] (-) JobUnselected: {'identifier': 'jet_drive'}
-[0.017903] (-) JobUnselected: {'identifier': 'jet_drive_moderator'}
-[0.018183] (-) JobUnselected: {'identifier': 'jetpilot_msgs'}
-[0.018399] (-) JobUnselected: {'identifier': 'joystick'}
-[0.018608] (-) JobUnselected: {'identifier': 'joystick'}
-[0.018814] (-) JobUnselected: {'identifier': 'rplidar_ros'}
-[0.019013] (-) EventReactorShutdown: {}

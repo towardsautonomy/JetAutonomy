@@ -1,5 +1,0 @@
-[  1%] Built target jetpilot_msgs__cpp
-[  3%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetpilot_msgs/msg/jet_racer_pose__functions.c.o[0m
-CMakeFiles/jetpilot_msgs__rosidl_generator_c.dir/build.make:235: recipe for target 'CMakeFiles/jetpilot_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetpilot_msgs/msg/jet_racer_pose__functions.c.o' failed
-CMakeFiles/Makefile2:226: recipe for target 'CMakeFiles/jetpilot_msgs__rosidl_generator_c.dir/all' failed
-Makefile:140: recipe for target 'all' failed

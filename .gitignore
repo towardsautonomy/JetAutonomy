@@ -6,4 +6,4 @@ __pycache__/
 # ignore ros builds
 ros2/build/
 ros2/install/
-ros2/logs/
+ros2/log/
