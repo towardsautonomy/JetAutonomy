@@ -12,7 +12,7 @@
 
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
-  <depend>jet_autonomy_msgs</depend>
+  <depend>jetpilot_msgs</depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>

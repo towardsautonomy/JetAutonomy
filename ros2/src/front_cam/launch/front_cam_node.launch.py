@@ -9,9 +9,9 @@ def generate_launch_description():
         node_executable="front_cam_node",
         output="screen",
         parameters=[
-          {"width": 224},
-          {"height": 224},
-          {"frame_rate": 120},
+          {"width": 1280},
+          {"height": 720},
+          {"frame_rate": 30},
           {"device_id": 0}
         ]
     )

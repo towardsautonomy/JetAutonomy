@@ -2,7 +2,7 @@
 
 import rclpy
 from rclpy.node import Node
-from jet_autonomy_msgs.msg import JetDriveCmd
+from jetpilot_msgs.msg import JetDriveCmd
 from jetracer.nvidia_racecar import NvidiaRacecar
 
 class JetDriveNode(Node):

@@ -1,0 +1,291 @@
+[0.421s] Invoking command in '/home/jetson/JetPilot/ros2/build/jetpilot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/JetPilot/ros2/install/joystick:/home/jetson/JetPilot/ros2/install/jet_drive:/home/jetson/JetPilot/ros2/install/imu_bno055:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetPilot/ros2/build/jetpilot_msgs -- -j2 -l2
+[0.799s] -- Found ament_cmake: 0.7.6 (/home/jetson/ros2_dashing/install/ament_cmake/share/ament_cmake/cmake)
+[4.911s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3") 
+[4.912s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.113s] -- Found rosidl_default_generators: 0.7.0 (/home/jetson/ros2_dashing/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[12.670s] -- Found rosidl_adapter: 0.7.10 (/home/jetson/ros2_dashing/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[14.366s] -- Found std_msgs: 0.7.0 (/home/jetson/ros2_dashing/install/std_msgs/share/std_msgs/cmake)
+[18.756s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.8") 
+[29.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[31.253s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[44.477s] -- Found rmw_implementation_cmake: 0.7.2 (/home/jetson/ros2_dashing/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[48.525s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3.5") 
+[48.527s] -- Found python_cmake_module: 0.7.11 (/home/jetson/ros2_dashing/install/python_cmake_module/share/python_cmake_module/cmake)
+[52.629s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[52.630s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[52.631s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[60.937s] -- Configuring done
+[61.717s] -- Generating done
+[61.740s] -- Build files have been written to: /home/jetson/JetPilot/ros2/build/jetpilot_msgs
+[62.085s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[62.361s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[75.191s] [  3%] Built target jetpilot_msgs__cpp
+[75.387s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[77.091s] [35m[1mScanning dependencies of target jetpilot_msgs__rosidl_generator_c[0m
+[77.369s] [  6%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetpilot_msgs/msg/joystick_cmd__functions.c.o[0m
+[77.864s] [  7%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetpilot_msgs/msg/jet_drive_cmd__functions.c.o[0m
+[78.259s] [  9%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetpilot_msgs/msg/jet_racer_pose__functions.c.o[0m
+[78.665s] [ 11%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetpilot_msgs/msg/orientation_euler__functions.c.o[0m
+[79.193s] [ 12%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetpilot_msgs/msg/position__functions.c.o[0m
+[79.564s] [ 14%] [32m[1mLinking C shared library libjetpilot_msgs__rosidl_generator_c.so[0m
+[80.003s] [ 14%] Built target jetpilot_msgs__rosidl_generator_c
+[80.172s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[86.034s] [35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_cpp[0m
+[86.251s] [ 17%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetpilot_msgs/msg/joystick_cmd__type_support.cpp.o[0m
+[88.484s] [ 19%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetpilot_msgs/msg/jet_drive_cmd__type_support.cpp.o[0m
+[90.616s] [ 20%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetpilot_msgs/msg/jet_racer_pose__type_support.cpp.o[0m
+[92.643s] [ 22%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetpilot_msgs/msg/orientation_euler__type_support.cpp.o[0m
+[92.854s] [35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[93.119s] [ 23%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetpilot_msgs/msg/dds_fastrtps/joystick_cmd__type_support.cpp.o[0m
+[94.805s] [ 25%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetpilot_msgs/msg/position__type_support.cpp.o[0m
+[96.623s] [ 26%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetpilot_msgs/msg/dds_fastrtps/jet_drive_cmd__type_support.cpp.o[0m
+[96.960s] [ 28%] [32m[1mLinking CXX shared library libjetpilot_msgs__rosidl_typesupport_cpp.so[0m
+[97.477s] [ 28%] Built target jetpilot_msgs__rosidl_typesupport_cpp
+[99.476s] [ 30%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetpilot_msgs/msg/dds_fastrtps/jet_racer_pose__type_support.cpp.o[0m
+[102.119s] [ 31%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetpilot_msgs/msg/dds_fastrtps/orientation_euler__type_support.cpp.o[0m
+[104.769s] [ 33%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetpilot_msgs/msg/dds_fastrtps/position__type_support.cpp.o[0m
+[107.382s] [ 34%] [32m[1mLinking CXX shared library libjetpilot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[108.052s] [ 34%] Built target jetpilot_msgs__rosidl_typesupport_fastrtps_cpp
+[108.218s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[116.221s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[119.196s] [35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_introspection_c[0m
+[119.619s] [ 39%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetpilot_msgs/msg/joystick_cmd__type_support.c.o[0m
+[120.214s] [ 41%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetpilot_msgs/msg/jet_drive_cmd__type_support.c.o[0m
+[120.556s] [ 42%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetpilot_msgs/msg/jet_racer_pose__type_support.c.o[0m
+[120.903s] [ 44%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetpilot_msgs/msg/orientation_euler__type_support.c.o[0m
+[121.257s] [ 46%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetpilot_msgs/msg/position__type_support.c.o[0m
+[121.674s] [ 47%] [32m[1mLinking C shared library libjetpilot_msgs__rosidl_typesupport_introspection_c.so[0m
+[122.104s] [ 47%] Built target jetpilot_msgs__rosidl_typesupport_introspection_c
+[122.278s] [ 49%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[127.123s] [35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_c[0m
+[127.339s] [ 50%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetpilot_msgs/msg/joystick_cmd__type_support.cpp.o[0m
+[127.658s] [ 52%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetpilot_msgs/msg/jet_drive_cmd__type_support.cpp.o[0m
+[128.095s] [ 53%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetpilot_msgs/msg/jet_racer_pose__type_support.cpp.o[0m
+[128.466s] [ 55%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetpilot_msgs/msg/orientation_euler__type_support.cpp.o[0m
+[128.784s] [ 57%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetpilot_msgs/msg/position__type_support.cpp.o[0m
+[129.107s] [ 58%] [32m[1mLinking CXX shared library libjetpilot_msgs__rosidl_typesupport_c.so[0m
+[129.613s] [ 58%] Built target jetpilot_msgs__rosidl_typesupport_c
+[129.818s] [ 60%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[133.910s] [35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_introspection_cpp[0m
+[134.147s] [ 61%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetpilot_msgs/msg/joystick_cmd__type_support.cpp.o[0m
+[136.262s] [ 63%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetpilot_msgs/msg/jet_drive_cmd__type_support.cpp.o[0m
+[138.284s] [ 65%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetpilot_msgs/msg/jet_racer_pose__type_support.cpp.o[0m
+[140.326s] [ 66%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetpilot_msgs/msg/orientation_euler__type_support.cpp.o[0m
+[142.604s] [ 68%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetpilot_msgs/msg/position__type_support.cpp.o[0m
+[142.703s] [35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_fastrtps_c[0m
+[143.032s] [ 69%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetpilot_msgs/msg/joystick_cmd__type_support_c.cpp.o[0m
+[144.905s] [ 71%] [32m[1mLinking CXX shared library libjetpilot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[145.407s] [ 71%] Built target jetpilot_msgs__rosidl_typesupport_introspection_cpp
+[145.681s] [ 73%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetpilot_msgs/msg/jet_drive_cmd__type_support_c.cpp.o[0m
+[147.967s] [ 74%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetpilot_msgs/msg/jet_racer_pose__type_support_c.cpp.o[0m
+[150.209s] [ 76%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetpilot_msgs/msg/orientation_euler__type_support_c.cpp.o[0m
+[152.509s] [ 77%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetpilot_msgs/msg/position__type_support_c.cpp.o[0m
+[154.751s] [ 79%] [32m[1mLinking CXX shared library libjetpilot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[155.441s] [ 79%] Built target jetpilot_msgs__rosidl_typesupport_fastrtps_c
+[155.762s] [ 79%] Built target jetpilot_msgs
+[156.091s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[171.979s] [ 80%] Built target jetpilot_msgs__py
+[172.151s] [35m[1mScanning dependencies of target jetpilot_msgs__python[0m
+[172.461s] [ 82%] [32mBuilding C object CMakeFiles/jetpilot_msgs__python.dir/rosidl_generator_py/jetpilot_msgs/msg/_joystick_cmd_s.c.o[0m
+[172.589s] [ 84%] [32mBuilding C object CMakeFiles/jetpilot_msgs__python.dir/rosidl_generator_py/jetpilot_msgs/msg/_jet_drive_cmd_s.c.o[0m
+[173.431s] [ 85%] [32mBuilding C object CMakeFiles/jetpilot_msgs__python.dir/rosidl_generator_py/jetpilot_msgs/msg/_jet_racer_pose_s.c.o[0m
+[174.001s] [ 87%] [32mBuilding C object CMakeFiles/jetpilot_msgs__python.dir/rosidl_generator_py/jetpilot_msgs/msg/_orientation_euler_s.c.o[0m
+[174.165s] [ 88%] [32mBuilding C object CMakeFiles/jetpilot_msgs__python.dir/rosidl_generator_py/jetpilot_msgs/msg/_position_s.c.o[0m
+[175.002s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/jetpilot_msgs/libjetpilot_msgs__python.so[0m
+[175.466s] [ 90%] Built target jetpilot_msgs__python
+[175.632s] [35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[175.633s] [35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[175.908s] [ 92%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/jetpilot_msgs/_jetpilot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[176.052s] [ 93%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/jetpilot_msgs/_jetpilot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[177.024s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[177.200s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so[0m
+[178.064s] [ 96%] Built target jetpilot_msgs__rosidl_typesupport_introspection_c__pyext
+[178.249s] [ 96%] Built target jetpilot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[178.422s] [35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_c__pyext[0m
+[178.637s] [ 98%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/jetpilot_msgs/_jetpilot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[179.411s] [100%] [32m[1mLinking C shared library rosidl_generator_py/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[179.909s] [100%] Built target jetpilot_msgs__rosidl_typesupport_c__pyext
+[180.058s] Invoked command in '/home/jetson/JetPilot/ros2/build/jetpilot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/JetPilot/ros2/install/joystick:/home/jetson/JetPilot/ros2/install/jet_drive:/home/jetson/JetPilot/ros2/install/imu_bno055:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetPilot/ros2/build/jetpilot_msgs -- -j2 -l2
+[183.092s] Invoking command in '/home/jetson/JetPilot/ros2/build/jetpilot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/JetPilot/ros2/install/joystick:/home/jetson/JetPilot/ros2/install/jet_drive:/home/jetson/JetPilot/ros2/install/imu_bno055:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetPilot/ros2/build/jetpilot_msgs --target install -- -j2 -l2
+[183.855s] [  1%] Built target jetpilot_msgs__cpp
+[184.209s] [ 12%] Built target jetpilot_msgs__rosidl_generator_c
+[184.551s] [ 23%] Built target jetpilot_msgs__rosidl_typesupport_cpp
+[184.938s] [ 34%] Built target jetpilot_msgs__rosidl_typesupport_fastrtps_cpp
+[185.304s] [ 46%] Built target jetpilot_msgs__rosidl_typesupport_introspection_c
+[185.701s] [ 57%] Built target jetpilot_msgs__rosidl_typesupport_c
+[186.047s] [ 68%] Built target jetpilot_msgs__rosidl_typesupport_introspection_cpp
+[186.430s] [ 79%] Built target jetpilot_msgs__rosidl_typesupport_fastrtps_c
+[186.768s] [ 79%] Built target jetpilot_msgs
+[187.097s] [ 80%] Built target jetpilot_msgs__py
+[187.511s] [ 90%] Built target jetpilot_msgs__python
+[187.981s] [ 93%] Built target jetpilot_msgs__rosidl_typesupport_introspection_c__pyext
+[187.983s] [ 96%] Built target jetpilot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[188.373s] [100%] Built target jetpilot_msgs__rosidl_typesupport_c__pyext
+[188.662s] [36mInstall the project...[0m
+[188.783s] -- Install configuration: ""
+[188.784s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/ament_index/resource_index/rosidl_interfaces/jetpilot_msgs
+[188.785s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_c.so
+[188.787s] -- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_c.so" to ""
+[188.788s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/environment/library_path.sh
+[188.790s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_cpp.so
+[188.792s] -- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_cpp.so" to ""
+[188.794s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs
+[188.796s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg
+[188.798s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__rosidl_typesupport_introspection_c.h
+[188.799s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__rosidl_typesupport_introspection_c.h
+[188.801s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__rosidl_typesupport_introspection_c.h
+[188.802s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__rosidl_typesupport_introspection_c.h
+[188.804s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__rosidl_typesupport_introspection_c.h
+[188.806s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__type_support.c
+[188.808s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__type_support.c
+[188.810s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[188.812s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__type_support.c
+[188.814s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__type_support.c
+[188.816s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__type_support.c
+[188.819s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__type_support.c
+[188.822s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__rosidl_typesupport_introspection_c.h
+[188.824s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_introspection_c.so
+[188.825s] -- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[188.827s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs
+[188.829s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg
+[188.831s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__type_support.h
+[188.832s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__type_support.h
+[188.833s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__functions.c
+[188.835s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__functions.h
+[188.837s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__struct.h
+[188.839s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose.h
+[188.840s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__functions.h
+[188.843s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler.h
+[188.846s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__struct.h
+[188.848s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__type_support.h
+[188.850s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__type_support.h
+[188.862s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__struct.h
+[188.867s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__type_support.h
+[188.869s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__functions.h
+[188.875s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__functions.c
+[188.876s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__functions.c
+[188.877s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__type_support.h
+[188.878s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__functions.c
+[188.882s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__functions.h
+[188.883s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__functions.h
+[188.885s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__functions.c
+[188.886s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__struct.h
+[188.891s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__functions.h
+[188.892s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/rosidl_generator_c__visibility_control.h
+[188.893s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__struct.h
+[188.894s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position.h
+[188.899s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd.h
+[188.900s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler.h
+[188.901s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__functions.c
+[188.902s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd.h
+[188.907s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__struct.h
+[188.908s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_generator_c.so
+[188.909s] -- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_generator_c.so" to ""
+[188.910s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs
+[188.919s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg
+[188.920s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__rosidl_typesupport_fastrtps_c.h
+[188.921s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[188.922s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__rosidl_typesupport_fastrtps_c.h
+[188.923s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__rosidl_typesupport_fastrtps_c.h
+[188.924s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__rosidl_typesupport_fastrtps_c.h
+[188.925s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__rosidl_typesupport_fastrtps_c.h
+[188.926s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__rosidl_typesupport_fastrtps_c.h
+[188.935s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_fastrtps_c.so
+[188.936s] -- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[188.937s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs
+[188.938s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg
+[188.939s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__rosidl_typesupport_fastrtps_cpp.hpp
+[188.940s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[188.941s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__rosidl_typesupport_fastrtps_cpp.hpp
+[188.944s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__rosidl_typesupport_fastrtps_cpp.hpp
+[188.948s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[188.949s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[188.950s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/dds_fastrtps
+[188.956s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[188.957s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[188.958s] -- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[188.959s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs
+[188.960s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg
+[188.970s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__traits.hpp
+[188.971s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__struct.hpp
+[188.972s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__traits.hpp
+[188.973s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose.hpp
+[188.974s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__traits.hpp
+[188.975s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__traits.hpp
+[188.976s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__struct.hpp
+[188.977s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__struct.hpp
+[188.978s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__traits.hpp
+[188.979s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__struct.hpp
+[188.982s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__struct.hpp
+[188.990s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler.hpp
+[188.991s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler.hpp
+[188.992s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd.hpp
+[188.993s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd.hpp
+[188.994s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__struct.hpp
+[188.995s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position.hpp
+[188.996s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__traits.hpp
+[188.997s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs
+[189.003s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg
+[189.004s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__rosidl_typesupport_introspection_cpp.hpp
+[189.005s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__rosidl_typesupport_introspection_cpp.hpp
+[189.006s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__type_support.cpp
+[189.007s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__rosidl_typesupport_introspection_cpp.hpp
+[189.015s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__type_support.cpp
+[189.017s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__rosidl_typesupport_introspection_cpp.hpp
+[189.018s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__type_support.cpp
+[189.019s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__type_support.cpp
+[189.021s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__rosidl_typesupport_introspection_cpp.hpp
+[189.022s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__type_support.cpp
+[189.023s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__type_support.cpp
+[189.031s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__rosidl_typesupport_introspection_cpp.hpp
+[189.032s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_introspection_cpp.so
+[189.033s] -- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[189.034s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/environment/pythonpath.sh
+[189.035s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/__init__.py
+[193.234s] Compiling '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/__init__.py'...
+[193.264s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg
+[193.266s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_jet_racer_pose.py
+[193.268s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_joystick_cmd_s.c
+[193.270s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_orientation_euler.py
+[193.272s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_jet_racer_pose_s.c
+[193.273s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_euler_s.c
+[193.275s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_position_s.c
+[193.276s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_joystick_cmd.py
+[193.277s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_orientation_euler_s.c
+[193.278s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/__init__.py
+[193.280s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_jet_drive_cmd.py
+[193.281s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_euler.py
+[193.282s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_jet_drive_cmd_s.c
+[193.283s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_position.py
+[193.284s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[193.285s] -- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[193.286s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so
+[193.288s] -- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[193.289s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[193.290s] -- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[193.292s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__python.so
+[193.294s] -- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__python.so" to ""
+[193.302s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/JoystickCmd.idl
+[193.304s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/JetDriveCmd.idl
+[193.306s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/JetRacerPose.idl
+[193.307s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/OrientationEuler.idl
+[193.308s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/Position.idl
+[193.309s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/JoystickCmd.msg
+[193.311s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/JetDriveCmd.msg
+[193.312s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/JetRacerPose.msg
+[193.313s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/OrientationEuler.msg
+[193.315s] -- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/Position.msg
+[193.316s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/ament_index/resource_index/package_run_dependencies/jetpilot_msgs
+[193.317s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/ament_index/resource_index/parent_prefix_path/jetpilot_msgs
+[193.318s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/local_setup.bash
+[193.319s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/local_setup.sh
+[193.320s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/local_setup.zsh
+[193.321s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/ament_index/resource_index/packages/jetpilot_msgs
+[193.322s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/cmake/rosidl_cmake-extras.cmake
+[193.324s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[193.332s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[193.334s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[193.336s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/cmake/jetpilot_msgsConfig.cmake
+[193.337s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/cmake/jetpilot_msgsConfig-version.cmake
+[193.338s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/package.xml
+[193.340s] Invoked command in '/home/jetson/JetPilot/ros2/build/jetpilot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/JetPilot/ros2/install/joystick:/home/jetson/JetPilot/ros2/install/jet_drive:/home/jetson/JetPilot/ros2/install/imu_bno055:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetPilot/ros2/build/jetpilot_msgs --target install -- -j2 -l2

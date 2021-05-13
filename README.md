@@ -1,30 +1,31 @@
-# JetAutonomy: Autonomous Driving Software Stack based on JetRacer Platform
+# JetPilot: Autonomous Driving Software Stack based on JetRacer Platform
 
 ## Get Started  
 
-### Build JetAutonomy  
+### Build JetPilot  
 
 ```
+git clone https://github.com/towardsautonomy/JetPilot.git --recursive
+cd JetPilot/ros2
 source ~/ros2_dashing/install/setup.bash
-git clone https://github.com/towardsautonomy/JetAutonomy.git --recursive
-cd JetAutonomy/ros2
 colcon build
 ```
 
-### Launch JetAutonomy  
+### Launch JetPilot  
 
 ```
+cd JetPilot/ros2
 source install/setup.bash
-ros2 launch jet_drive jet_autonomy.launch.py
+ros2 launch jet_drive jet_pilot.launch.py
 ```
 
-### Launch JetAutonomy on startup
+### Launch JetPilot on startup
 
 ```
-chmod +x scripts/jetautonomy_startup.sh
-sudo cp scripts/jetautonomy_startup.service /etc/systemd/system/ 
-sudo systemctl enable jetautonomy_startup
-sudo systemctl start jetautonomy_startup
+chmod +x scripts/jetpilot_startup.sh
+sudo cp scripts/jetpilot_startup.service /etc/systemd/system/ 
+sudo systemctl enable jetpilot_startup
+sudo systemctl start jetpilot_startup
 ```
 ## Modules and Individual Packages
 
@@ -51,6 +52,10 @@ sudo systemctl start jetautonomy_startup
       Right Stick : Left/Right for Left/Right Steering
       ```  
     - Running this node: ```ros2 launch joystick joystick_node.launch.py``` 
+
+1. IMU - Adafruit BNO055
+    - This module uses the `[Adafruit_Python_Extended_Bus](https://github.com/adafruit/Adafruit_Python_Extended_Bus)` library which needs to be installed separately.
+    - Running this node: ```ros2 launch imu_bno055 imu_bno055_node.launch.py``` 
     
 1. Jet Drive Moderator  
     - This is responsible for moderating the `steering` and `throttle` commands sent to the JetRacer.  
@@ -59,12 +64,14 @@ sudo systemctl start jetautonomy_startup
 1. Jet Drive
     - This module is responsible for applying `steering` and `throttle` to the JetRacer.  
     - Running this node: ```ros2 launch jet_drive jet_drive_node.launch.py``` 
-    - For other sensor frames to world transforms, run: ```ros2 launch jet_drive frame_transforms.launch.py``` 
-    - Launch the complete stack: ```ros2 launch jet_drive jet_autonomy.launch.py``` 
-    - If monitoring these nodes from a different device, run this command on the guest machine for transforms:  
+    - For other sensor frames to base link transforms, run: ```ros2 launch jet_drive frame_transforms.launch.py``` 
+    - Launch the complete stack: ```ros2 launch jet_drive jet_pilot.launch.py``` 
+    - If monitoring these nodes from a different device, run this command on the guest machine for world-to-sensor transforms:  
       ```
-      ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0  world laser_frame
-      ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0  world camera_frame
+      ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0  base_link imu_link
+      ros2 run tf2_ros static_transform_publisher 0 0 0.1 0 0 0  base_link laser_link
+      ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0  laser_frame laser_link
+      ros2 run tf2_ros static_transform_publisher 0.2 0 0 0 0 0  base_link camera_link
       ```
 
 ## Teleoperation without ROS2 dependency

@@ -19,7 +19,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_components REQUIRED)
-find_package(jet_autonomy_msgs REQUIRED)
+find_package(jetpilot_msgs REQUIRED)
 
 # define the executable
 add_executable(${PROJECT_NAME}_node src/${PROJECT_NAME}_node.cpp)
@@ -28,7 +28,7 @@ target_include_directories(${PROJECT_NAME}_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 
-ament_target_dependencies(${PROJECT_NAME}_node rclcpp rclcpp_components jet_autonomy_msgs)
+ament_target_dependencies(${PROJECT_NAME}_node rclcpp rclcpp_components jetpilot_msgs)
 
 # Install the library
 install(TARGETS ${PROJECT_NAME}_node

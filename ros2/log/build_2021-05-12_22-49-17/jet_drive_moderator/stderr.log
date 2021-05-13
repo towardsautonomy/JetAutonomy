@@ -1,0 +1,10 @@
+[01m[K/home/jetson/JetPilot/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:[m[K In member function ‘[01m[Kvoid JetDriveModeratorNode::jooystick_cb(jetpilot_msgs::msg::JoystickCmd_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/jetson/JetPilot/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:30:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct jetpilot_msgs::msg::JetDriveCmd_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ksteering[m[K’
+                 jet_drive_cmd->[01;31m[Ksteering[m[K = js_cmd->steering;
+                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jetson/JetPilot/ros2/src/jet_drive_moderator/src/jet_drive_moderator_node.cpp:31:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct jetpilot_msgs::msg::JetDriveCmd_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kthrottle[m[K’
+                 jet_drive_cmd->[01;31m[Kthrottle[m[K = js_cmd->throttle;
+                                [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/jet_drive_moderator_node.dir/src/jet_drive_moderator_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/jet_drive_moderator_node.dir/all] Error 2
+make: *** [all] Error 2

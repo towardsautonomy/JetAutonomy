@@ -1,0 +1,287 @@
+-- Found ament_cmake: 0.7.6 (/home/jetson/ros2_dashing/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 0.7.0 (/home/jetson/ros2_dashing/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 0.7.10 (/home/jetson/ros2_dashing/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found std_msgs: 0.7.0 (/home/jetson/ros2_dashing/install/std_msgs/share/std_msgs/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.6.8") 
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 0.7.2 (/home/jetson/ros2_dashing/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3.5") 
+-- Found python_cmake_module: 0.7.11 (/home/jetson/ros2_dashing/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetson/JetPilot/ros2/build/jetpilot_msgs
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  3%] Built target jetpilot_msgs__cpp
+[  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target jetpilot_msgs__rosidl_generator_c[0m
+[  6%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetpilot_msgs/msg/joystick_cmd__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetpilot_msgs/msg/jet_drive_cmd__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetpilot_msgs/msg/jet_racer_pose__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetpilot_msgs/msg/orientation_euler__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetpilot_msgs/msg/position__functions.c.o[0m
+[ 14%] [32m[1mLinking C shared library libjetpilot_msgs__rosidl_generator_c.so[0m
+[ 14%] Built target jetpilot_msgs__rosidl_generator_c
+[ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_cpp[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetpilot_msgs/msg/joystick_cmd__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetpilot_msgs/msg/jet_drive_cmd__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetpilot_msgs/msg/jet_racer_pose__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetpilot_msgs/msg/orientation_euler__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_introspection_cpp[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetpilot_msgs/msg/joystick_cmd__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetpilot_msgs/msg/position__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetpilot_msgs/msg/jet_drive_cmd__type_support.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library libjetpilot_msgs__rosidl_typesupport_cpp.so[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetpilot_msgs/msg/jet_racer_pose__type_support.cpp.o[0m
+[ 30%] Built target jetpilot_msgs__rosidl_typesupport_cpp
+[ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetpilot_msgs/msg/orientation_euler__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetpilot_msgs/msg/position__type_support.cpp.o[0m
+[ 36%] [32m[1mLinking CXX shared library libjetpilot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 36%] Built target jetpilot_msgs__rosidl_typesupport_introspection_cpp
+[ 38%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_introspection_c[0m
+[ 39%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetpilot_msgs/msg/joystick_cmd__type_support.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetpilot_msgs/msg/jet_drive_cmd__type_support.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetpilot_msgs/msg/jet_racer_pose__type_support.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetpilot_msgs/msg/orientation_euler__type_support.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetpilot_msgs/msg/position__type_support.c.o[0m
+[ 47%] [32m[1mLinking C shared library libjetpilot_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 47%] Built target jetpilot_msgs__rosidl_typesupport_introspection_c
+[ 49%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetpilot_msgs/msg/dds_fastrtps/joystick_cmd__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetpilot_msgs/msg/dds_fastrtps/jet_drive_cmd__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_c[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetpilot_msgs/msg/joystick_cmd__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetpilot_msgs/msg/dds_fastrtps/jet_racer_pose__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetpilot_msgs/msg/jet_drive_cmd__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetpilot_msgs/msg/jet_racer_pose__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetpilot_msgs/msg/orientation_euler__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetpilot_msgs/msg/position__type_support.cpp.o[0m
+[ 63%] [32m[1mLinking CXX shared library libjetpilot_msgs__rosidl_typesupport_c.so[0m
+[ 63%] Built target jetpilot_msgs__rosidl_typesupport_c
+[ 65%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetpilot_msgs/msg/dds_fastrtps/orientation_euler__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetpilot_msgs/msg/dds_fastrtps/position__type_support.cpp.o[0m
+[ 68%] [32m[1mLinking CXX shared library libjetpilot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 68%] Built target jetpilot_msgs__rosidl_typesupport_fastrtps_cpp
+[ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_fastrtps_c[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetpilot_msgs/msg/joystick_cmd__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetpilot_msgs/msg/jet_drive_cmd__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetpilot_msgs/msg/jet_racer_pose__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetpilot_msgs/msg/orientation_euler__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetpilot_msgs/msg/position__type_support_c.cpp.o[0m
+[ 79%] [32m[1mLinking CXX shared library libjetpilot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 79%] Built target jetpilot_msgs__rosidl_typesupport_fastrtps_c
+[ 79%] Built target jetpilot_msgs
+[ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 80%] Built target jetpilot_msgs__py
+[35m[1mScanning dependencies of target jetpilot_msgs__python[0m
+[ 82%] [32mBuilding C object CMakeFiles/jetpilot_msgs__python.dir/rosidl_generator_py/jetpilot_msgs/msg/_joystick_cmd_s.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/jetpilot_msgs__python.dir/rosidl_generator_py/jetpilot_msgs/msg/_jet_drive_cmd_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/jetpilot_msgs__python.dir/rosidl_generator_py/jetpilot_msgs/msg/_jet_racer_pose_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/jetpilot_msgs__python.dir/rosidl_generator_py/jetpilot_msgs/msg/_orientation_euler_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/jetpilot_msgs__python.dir/rosidl_generator_py/jetpilot_msgs/msg/_position_s.c.o[0m
+[ 90%] [32m[1mLinking C shared library rosidl_generator_py/jetpilot_msgs/libjetpilot_msgs__python.so[0m
+[ 90%] Built target jetpilot_msgs__python
+[35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[ 92%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/jetpilot_msgs/_jetpilot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/jetpilot_msgs/_jetpilot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so[0m
+[ 96%] Built target jetpilot_msgs__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target jetpilot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mScanning dependencies of target jetpilot_msgs__rosidl_typesupport_c__pyext[0m
+[ 98%] [32mBuilding C object CMakeFiles/jetpilot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/jetpilot_msgs/_jetpilot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[100%] Built target jetpilot_msgs__rosidl_typesupport_c__pyext
+[  1%] Built target jetpilot_msgs__cpp
+[ 12%] Built target jetpilot_msgs__rosidl_generator_c
+[ 23%] Built target jetpilot_msgs__rosidl_typesupport_cpp
+[ 34%] Built target jetpilot_msgs__rosidl_typesupport_introspection_cpp
+[ 46%] Built target jetpilot_msgs__rosidl_typesupport_introspection_c
+[ 57%] Built target jetpilot_msgs__rosidl_typesupport_fastrtps_cpp
+[ 68%] Built target jetpilot_msgs__rosidl_typesupport_c
+[ 79%] Built target jetpilot_msgs__rosidl_typesupport_fastrtps_c
+[ 79%] Built target jetpilot_msgs
+[ 80%] Built target jetpilot_msgs__py
+[ 90%] Built target jetpilot_msgs__python
+[ 93%] Built target jetpilot_msgs__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target jetpilot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target jetpilot_msgs__rosidl_typesupport_c__pyext
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/ament_index/resource_index/rosidl_interfaces/jetpilot_msgs
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/environment/library_path.sh
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_cpp.so" to ""
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__type_support.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__type_support.c
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__type_support.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__type_support.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__type_support.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__type_support.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__type_support.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__type_support.h
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__functions.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__functions.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__struct.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__functions.h
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__struct.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__type_support.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__type_support.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__struct.h
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__type_support.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__functions.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__functions.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__functions.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__type_support.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__functions.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__functions.h
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__functions.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__functions.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__struct.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__functions.h
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__struct.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__functions.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd.h
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__struct.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/dds_fastrtps
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__traits.hpp
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__struct.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__traits.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__traits.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__traits.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__struct.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__struct.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__traits.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__struct.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__struct.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler.hpp
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__struct.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__traits.hpp
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/euler__type_support.cpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__type_support.cpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_racer_pose__type_support.cpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/joystick_cmd__type_support.cpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/position__type_support.cpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/orientation_euler__type_support.cpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/include/jetpilot_msgs/msg/jet_drive_cmd__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/environment/pythonpath.sh
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/__init__.py
+Compiling '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/__init__.py'...
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_jet_racer_pose.py
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_joystick_cmd_s.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_orientation_euler.py
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_jet_racer_pose_s.c
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_euler_s.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_position_s.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_joystick_cmd.py
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_orientation_euler_s.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/__init__.py
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_jet_drive_cmd.py
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_euler.py
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_jet_drive_cmd_s.c
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/msg/_position.py
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+-- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so
+-- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so" to ""
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+-- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages/jetpilot_msgs/jetpilot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__python.so
+-- Set runtime path of "/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/libjetpilot_msgs__python.so" to ""
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/JoystickCmd.idl
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/JetDriveCmd.idl
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/JetRacerPose.idl
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/OrientationEuler.idl
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/Position.idl
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/JoystickCmd.msg
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/JetDriveCmd.msg
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/JetRacerPose.msg
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/OrientationEuler.msg
+-- Installing: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/msg/Position.msg
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/ament_index/resource_index/package_run_dependencies/jetpilot_msgs
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/ament_index/resource_index/parent_prefix_path/jetpilot_msgs
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/local_setup.bash
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/local_setup.sh
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/local_setup.zsh
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/ament_index/resource_index/packages/jetpilot_msgs
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/cmake/jetpilot_msgsConfig.cmake
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/cmake/jetpilot_msgsConfig-version.cmake
+-- Up-to-date: /home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/package.xml

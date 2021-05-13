@@ -1,0 +1,23 @@
+[14.859s] Invoking command in '/home/jetson/JetPilot/ros2/src/imu_bno055': AMENT_PREFIX_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/JetPilot/ros2/install/imu_bno055/lib/python3.6/site-packages:/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/imu_bno055 build --build-base /home/jetson/JetPilot/ros2/build/imu_bno055/build install --prefix /home/jetson/JetPilot/ros2/install/imu_bno055 --record /home/jetson/JetPilot/ros2/build/imu_bno055/install.log --single-version-externally-managed
+[24.028s] running egg_info
+[24.051s] writing ../../build/imu_bno055/imu_bno055.egg-info/PKG-INFO
+[24.056s] writing dependency_links to ../../build/imu_bno055/imu_bno055.egg-info/dependency_links.txt
+[24.059s] writing entry points to ../../build/imu_bno055/imu_bno055.egg-info/entry_points.txt
+[24.062s] writing requirements to ../../build/imu_bno055/imu_bno055.egg-info/requires.txt
+[24.064s] writing top-level names to ../../build/imu_bno055/imu_bno055.egg-info/top_level.txt
+[24.551s] reading manifest file '../../build/imu_bno055/imu_bno055.egg-info/SOURCES.txt'
+[24.566s] writing manifest file '../../build/imu_bno055/imu_bno055.egg-info/SOURCES.txt'
+[24.580s] running build
+[24.581s] running build_py
+[24.582s] running install
+[24.582s] running install_lib
+[24.618s] running install_data
+[24.627s] copying resource/imu_bno055 -> /home/jetson/JetPilot/ros2/install/imu_bno055/share/ament_index/resource_index/packages
+[24.640s] copying package.xml -> /home/jetson/JetPilot/ros2/install/imu_bno055/share/imu_bno055
+[24.641s] copying launch/imu_bno055_node.launch.py -> /home/jetson/JetPilot/ros2/install/imu_bno055/share/imu_bno055
+[24.642s] running install_egg_info
+[24.704s] Copying ../../build/imu_bno055/imu_bno055.egg-info to /home/jetson/JetPilot/ros2/install/imu_bno055/lib/python3.6/site-packages/imu_bno055-0.0.0-py3.6.egg-info
+[24.715s] running install_scripts
+[25.291s] Installing imu_bno055_node script to /home/jetson/JetPilot/ros2/install/imu_bno055/lib/imu_bno055
+[25.301s] writing list of installed files to '/home/jetson/JetPilot/ros2/build/imu_bno055/install.log'
+[25.719s] Invoked command in '/home/jetson/JetPilot/ros2/src/imu_bno055' returned '0': AMENT_PREFIX_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/JetPilot/ros2/install/imu_bno055/lib/python3.6/site-packages:/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/imu_bno055 build --build-base /home/jetson/JetPilot/ros2/build/imu_bno055/build install --prefix /home/jetson/JetPilot/ros2/install/imu_bno055 --record /home/jetson/JetPilot/ros2/build/imu_bno055/install.log --single-version-externally-managed

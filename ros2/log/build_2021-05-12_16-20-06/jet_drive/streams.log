@@ -1,0 +1,40 @@
+[24.835s] Invoking command in '/home/jetson/JetPilot/ros2/src/jet_drive': AMENT_PREFIX_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/JetPilot/ros2/install/jet_drive/lib/python3.6/site-packages:/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jet_drive build --build-base /home/jetson/JetPilot/ros2/build/jet_drive/build install --prefix /home/jetson/JetPilot/ros2/install/jet_drive --record /home/jetson/JetPilot/ros2/build/jet_drive/install.log --single-version-externally-managed
+[53.060s] running egg_info
+[53.081s] creating ../../build/jet_drive/jet_drive.egg-info
+[53.104s] writing ../../build/jet_drive/jet_drive.egg-info/PKG-INFO
+[53.107s] writing dependency_links to ../../build/jet_drive/jet_drive.egg-info/dependency_links.txt
+[53.112s] writing entry points to ../../build/jet_drive/jet_drive.egg-info/entry_points.txt
+[53.132s] writing requirements to ../../build/jet_drive/jet_drive.egg-info/requires.txt
+[53.133s] writing top-level names to ../../build/jet_drive/jet_drive.egg-info/top_level.txt
+[53.296s] writing manifest file '../../build/jet_drive/jet_drive.egg-info/SOURCES.txt'
+[55.003s] reading manifest file '../../build/jet_drive/jet_drive.egg-info/SOURCES.txt'
+[55.052s] writing manifest file '../../build/jet_drive/jet_drive.egg-info/SOURCES.txt'
+[55.053s] running build
+[55.054s] running build_py
+[55.062s] creating /home/jetson/JetPilot/ros2/build/jet_drive/build
+[55.068s] creating /home/jetson/JetPilot/ros2/build/jet_drive/build/lib
+[55.069s] creating /home/jetson/JetPilot/ros2/build/jet_drive/build/lib/jet_drive
+[55.069s] copying jet_drive/__init__.py -> /home/jetson/JetPilot/ros2/build/jet_drive/build/lib/jet_drive
+[55.070s] copying jet_drive/jet_drive_node.py -> /home/jetson/JetPilot/ros2/build/jet_drive/build/lib/jet_drive
+[55.086s] running install
+[55.112s] running install_lib
+[55.132s] creating /home/jetson/JetPilot/ros2/install/jet_drive/lib/python3.6/site-packages/jet_drive
+[55.137s] copying /home/jetson/JetPilot/ros2/build/jet_drive/build/lib/jet_drive/__init__.py -> /home/jetson/JetPilot/ros2/install/jet_drive/lib/python3.6/site-packages/jet_drive
+[55.138s] copying /home/jetson/JetPilot/ros2/build/jet_drive/build/lib/jet_drive/jet_drive_node.py -> /home/jetson/JetPilot/ros2/install/jet_drive/lib/python3.6/site-packages/jet_drive
+[55.268s] byte-compiling /home/jetson/JetPilot/ros2/install/jet_drive/lib/python3.6/site-packages/jet_drive/__init__.py to __init__.cpython-36.pyc
+[55.269s] byte-compiling /home/jetson/JetPilot/ros2/install/jet_drive/lib/python3.6/site-packages/jet_drive/jet_drive_node.py to jet_drive_node.cpython-36.pyc
+[55.280s] running install_data
+[55.314s] creating /home/jetson/JetPilot/ros2/install/jet_drive/share/ament_index
+[55.329s] creating /home/jetson/JetPilot/ros2/install/jet_drive/share/ament_index/resource_index
+[55.332s] creating /home/jetson/JetPilot/ros2/install/jet_drive/share/ament_index/resource_index/packages
+[55.346s] copying resource/jet_drive -> /home/jetson/JetPilot/ros2/install/jet_drive/share/ament_index/resource_index/packages
+[55.347s] copying package.xml -> /home/jetson/JetPilot/ros2/install/jet_drive/share/jet_drive
+[55.352s] copying launch/jet_drive_node.launch.py -> /home/jetson/JetPilot/ros2/install/jet_drive/share/jet_drive
+[55.366s] copying launch/jet_autonomy.launch.py -> /home/jetson/JetPilot/ros2/install/jet_drive/share/jet_drive
+[55.367s] copying launch/frame_transforms.launch.py -> /home/jetson/JetPilot/ros2/install/jet_drive/share/jet_drive
+[55.384s] running install_egg_info
+[55.568s] Copying ../../build/jet_drive/jet_drive.egg-info to /home/jetson/JetPilot/ros2/install/jet_drive/lib/python3.6/site-packages/jet_drive-0.0.0-py3.6.egg-info
+[55.585s] running install_scripts
+[56.860s] Installing jet_drive_node script to /home/jetson/JetPilot/ros2/install/jet_drive/lib/jet_drive
+[56.875s] writing list of installed files to '/home/jetson/JetPilot/ros2/build/jet_drive/install.log'
+[57.499s] Invoked command in '/home/jetson/JetPilot/ros2/src/jet_drive' returned '0': AMENT_PREFIX_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/JetPilot/ros2/install/jet_drive/lib/python3.6/site-packages:/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/jet_drive build --build-base /home/jetson/JetPilot/ros2/build/jet_drive/build install --prefix /home/jetson/JetPilot/ros2/install/jet_drive --record /home/jetson/JetPilot/ros2/build/jet_drive/install.log --single-version-externally-managed

@@ -1,0 +1,13 @@
+[Unit]
+Description=JetPilot Startup
+After=multi-user.target
+
+[Service]
+WorkingDirectory=/home/jetson/JetPilot
+ExecStart=/home/jetson/JetAutonomy/scripts/jetpilot_startup.sh
+Restart=always
+StartLimitInterval=10
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

@@ -73,7 +73,7 @@ class FrontCamPublisher : public rclcpp::Node
 
                     // Convert OpenCV Mat to ROS Image
                     image_msg->header.stamp = rclcpp::Clock().now();
-                    image_msg->header.frame_id = std::string("camera_frame");
+                    image_msg->header.frame_id = std::string("camera_link");
                     image_msg->height = frame.rows;
                     image_msg->width = frame.cols;
                     image_msg->encoding = sensor_msgs::image_encodings::BGR8; //this->camera(mat_type2encoding(frame.type()));

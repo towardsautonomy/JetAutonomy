@@ -1,0 +1,217 @@
+[5.308s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'jetpilot_msgs']
+[5.309s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa46b34a8>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['jetpilot_msgs'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa46b34a8>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa46b37f0>)
+[5.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.441s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.441s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/JetPilot/ros2'
+[5.442s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.613s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.614s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.616s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.617s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.618s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.621s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.621s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.622s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.623s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.624s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.624s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.625s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.627s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.627s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.627s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extensions ['ignore', 'ignore_ament_install']
+[5.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extension 'ignore'
+[5.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extension 'ignore_ament_install'
+[5.633s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extensions ['colcon_pkg']
+[5.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extension 'colcon_pkg'
+[5.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extensions ['colcon_meta']
+[5.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extension 'colcon_meta'
+[5.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extensions ['ros']
+[5.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/front_cam) by extension 'ros'
+[5.654s] DEBUG:colcon.colcon_core.package_identification:Package 'src/front_cam' with type 'ros.ament_cmake' and name 'front_cam'
+[5.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_bno055) by extensions ['ignore', 'ignore_ament_install']
+[5.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_bno055) by extension 'ignore'
+[5.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_bno055) by extension 'ignore_ament_install'
+[5.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_bno055) by extensions ['colcon_pkg']
+[5.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_bno055) by extension 'colcon_pkg'
+[5.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_bno055) by extensions ['colcon_meta']
+[5.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_bno055) by extension 'colcon_meta'
+[5.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_bno055) by extensions ['ros']
+[5.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_bno055) by extension 'ros'
+[5.665s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_bno055' with type 'ros.ament_python' and name 'imu_bno055'
+[5.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extensions ['ignore', 'ignore_ament_install']
+[5.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extension 'ignore'
+[5.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extension 'ignore_ament_install'
+[5.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extensions ['colcon_pkg']
+[5.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extension 'colcon_pkg'
+[5.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extensions ['colcon_meta']
+[5.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extension 'colcon_meta'
+[5.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extensions ['ros']
+[5.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive) by extension 'ros'
+[5.676s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jet_drive' with type 'ros.ament_python' and name 'jet_drive'
+[5.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extensions ['ignore', 'ignore_ament_install']
+[5.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extension 'ignore'
+[5.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extension 'ignore_ament_install'
+[5.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extensions ['colcon_pkg']
+[5.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extension 'colcon_pkg'
+[5.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extensions ['colcon_meta']
+[5.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extension 'colcon_meta'
+[5.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extensions ['ros']
+[5.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/jet_drive_moderator) by extension 'ros'
+[5.686s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jet_drive_moderator' with type 'ros.ament_cmake' and name 'jet_drive_moderator'
+[5.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetpilot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[5.687s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetpilot_msgs) by extension 'ignore'
+[5.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetpilot_msgs) by extension 'ignore_ament_install'
+[5.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetpilot_msgs) by extensions ['colcon_pkg']
+[5.688s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetpilot_msgs) by extension 'colcon_pkg'
+[5.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetpilot_msgs) by extensions ['colcon_meta']
+[5.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetpilot_msgs) by extension 'colcon_meta'
+[5.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetpilot_msgs) by extensions ['ros']
+[5.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/jetpilot_msgs) by extension 'ros'
+[5.695s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jetpilot_msgs' with type 'ros.ament_cmake' and name 'jetpilot_msgs'
+[5.696s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['ignore', 'ignore_ament_install']
+[5.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'ignore'
+[5.697s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'ignore_ament_install'
+[5.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['colcon_pkg']
+[5.698s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'colcon_pkg'
+[5.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['colcon_meta']
+[5.699s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'colcon_meta'
+[5.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extensions ['ros']
+[5.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick) by extension 'ros'
+[5.707s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick' with type 'ros.ament_python' and name 'joystick'
+[5.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extensions ['ignore', 'ignore_ament_install']
+[5.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extension 'ignore'
+[5.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extension 'ignore_ament_install'
+[5.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extensions ['colcon_pkg']
+[5.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extension 'colcon_pkg'
+[5.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extensions ['colcon_meta']
+[5.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extension 'colcon_meta'
+[5.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extensions ['ros']
+[5.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar) by extension 'ros'
+[5.719s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[5.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.058s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'front_cam' in 'src/front_cam'
+[6.059s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rplidar_ros' in 'src/rplidar'
+[6.059s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'imu_bno055' in 'src/imu_bno055'
+[6.060s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jet_drive' in 'src/jet_drive'
+[6.060s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'jet_drive_moderator' in 'src/jet_drive_moderator'
+[6.061s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'joystick' in 'src/joystick'
+[6.116s] Level 5:colcon.colcon_core.verb:set package 'jetpilot_msgs' build argument 'cmake_args' from command line to 'None'
+[6.116s] Level 5:colcon.colcon_core.verb:set package 'jetpilot_msgs' build argument 'cmake_target' from command line to 'None'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'jetpilot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'jetpilot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'jetpilot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'jetpilot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'jetpilot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'jetpilot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[6.119s] Level 5:colcon.colcon_core.verb:set package 'jetpilot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.119s] DEBUG:colcon.colcon_core.verb:Building package 'jetpilot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/JetPilot/ros2/build/jetpilot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/JetPilot/ros2/install/jetpilot_msgs', 'merge_install': False, 'path': '/home/jetson/JetPilot/ros2/src/jetpilot_msgs', 'symlink_install': False, 'test_result_base': None}
+[6.123s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.147s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.150s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/JetPilot/ros2/src/jetpilot_msgs' with build type 'ament_cmake'
+[6.151s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/JetPilot/ros2/src/jetpilot_msgs'
+[6.221s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.223s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.224s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/JetPilot/ros2/build/jetpilot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/JetPilot/ros2/install/joystick:/home/jetson/JetPilot/ros2/install/jet_drive:/home/jetson/JetPilot/ros2/install/imu_bno055:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetPilot/ros2/build/jetpilot_msgs -- -j2 -l2
+[214.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/JetPilot/ros2/build/jetpilot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/JetPilot/ros2/install/joystick:/home/jetson/JetPilot/ros2/install/jet_drive:/home/jetson/JetPilot/ros2/install/imu_bno055:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetPilot/ros2/build/jetpilot_msgs -- -j2 -l2
+[217.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/JetPilot/ros2/build/jetpilot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/JetPilot/ros2/install/joystick:/home/jetson/JetPilot/ros2/install/jet_drive:/home/jetson/JetPilot/ros2/install/imu_bno055:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetPilot/ros2/build/jetpilot_msgs --target install -- -j2 -l2
+[228.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jetpilot_msgs)
+[228.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/JetPilot/ros2/build/jetpilot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/JetPilot/ros2/install/joystick:/home/jetson/JetPilot/ros2/install/jet_drive:/home/jetson/JetPilot/ros2/install/imu_bno055:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetPilot/ros2/build/jetpilot_msgs --target install -- -j2 -l2
+[228.440s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetPilot/ros2/install/jetpilot_msgs' for CMake module files
+[228.446s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetPilot/ros2/install/jetpilot_msgs' for CMake config files
+[228.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetpilot_msgs', 'cmake_prefix_path')
+[228.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/cmake_prefix_path.ps1'
+[228.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/cmake_prefix_path.dsv'
+[228.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/cmake_prefix_path.sh'
+[228.472s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib'
+[228.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetpilot_msgs', 'ld_library_path_lib')
+[228.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/ld_library_path_lib.ps1'
+[228.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/ld_library_path_lib.dsv'
+[228.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/ld_library_path_lib.sh'
+[228.488s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/bin'
+[228.489s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/pkgconfig/jetpilot_msgs.pc'
+[228.489s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages'
+[228.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetpilot_msgs', 'pythonpath')
+[228.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/pythonpath.ps1'
+[228.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/pythonpath.dsv'
+[228.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/pythonpath.sh'
+[228.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/package.ps1'
+[228.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/package.dsv'
+[228.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/package.sh'
+[228.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/package.bash'
+[228.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/package.zsh'
+[228.549s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/colcon-core/packages/jetpilot_msgs)
+[231.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jetpilot_msgs)
+[231.489s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetPilot/ros2/install/jetpilot_msgs' for CMake module files
+[231.494s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetPilot/ros2/install/jetpilot_msgs' for CMake config files
+[231.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetpilot_msgs', 'cmake_prefix_path')
+[231.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/cmake_prefix_path.ps1'
+[231.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/cmake_prefix_path.dsv'
+[231.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/cmake_prefix_path.sh'
+[231.514s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib'
+[231.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetpilot_msgs', 'ld_library_path_lib')
+[231.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/ld_library_path_lib.ps1'
+[231.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/ld_library_path_lib.dsv'
+[231.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/ld_library_path_lib.sh'
+[231.529s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/bin'
+[231.530s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/pkgconfig/jetpilot_msgs.pc'
+[231.530s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages'
+[231.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetpilot_msgs', 'pythonpath')
+[231.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/pythonpath.ps1'
+[231.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/pythonpath.dsv'
+[231.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/hook/pythonpath.sh'
+[231.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/package.ps1'
+[231.559s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/package.dsv'
+[231.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/package.sh'
+[231.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/package.bash'
+[231.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/jetpilot_msgs/package.zsh'
+[231.572s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/JetPilot/ros2/install/jetpilot_msgs/share/colcon-core/packages/jetpilot_msgs)
+[231.575s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[231.580s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[231.580s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[231.581s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[231.690s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[231.691s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[231.691s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[231.699s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[231.699s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[231.707s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/JetPilot/ros2/install/local_setup.ps1'
+[231.717s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/JetPilot/ros2/install/_local_setup_util_ps1.py'
+[231.731s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/JetPilot/ros2/install/setup.ps1'
+[231.863s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/JetPilot/ros2/install/local_setup.sh'
+[231.868s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/JetPilot/ros2/install/_local_setup_util_sh.py'
+[231.871s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/JetPilot/ros2/install/setup.sh'
+[231.998s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/JetPilot/ros2/install/local_setup.bash'
+[232.005s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/JetPilot/ros2/install/setup.bash'
+[232.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/JetPilot/ros2/install/local_setup.zsh'
+[232.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/JetPilot/ros2/install/setup.zsh'

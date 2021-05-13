@@ -2,7 +2,7 @@
 
 import rclpy
 from rclpy.node import Node
-from jet_autonomy_msgs.msg import JoystickCmd
+from jetpilot_msgs.msg import JoystickCmd
 from joystick.gamepad import Joystick
 
 class JoystickNode(Node):
@@ -19,7 +19,6 @@ class JoystickNode(Node):
         self.spin()
 
     def spin(self):
-        # rate = rospy.Rate(100) # 100hz
         auto_drive_enabled, manual_drive_enabled = False, False
         steering, throttle = 0., 0.
         while rclpy.ok():
@@ -48,7 +47,7 @@ class JoystickNode(Node):
                 auto_drive_enabled = False
 
             js_cmd.header.stamp = self.get_clock().now().to_msg()
-            js_cmd.header.frame_id = 'world'
+            js_cmd.header.frame_id = 'joystick'
             js_cmd.auto_drive_enabled = auto_drive_enabled
             js_cmd.manual_drive_enabled = manual_drive_enabled
             js_cmd.steering = steering

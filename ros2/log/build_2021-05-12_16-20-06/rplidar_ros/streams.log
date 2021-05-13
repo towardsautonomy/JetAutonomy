@@ -1,0 +1,434 @@
+[1.368s] Invoking command in '/home/jetson/JetPilot/ros2/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/JetAutonomy/ros2/install/joystick:/home/jetson/JetAutonomy/ros2/install/jet_drive:/home/jetson/JetAutonomy/ros2/install/bno055:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake /home/jetson/JetPilot/ros2/src/rplidar -DCMAKE_INSTALL_PREFIX=/home/jetson/JetPilot/ros2/install/rplidar_ros
+[4.103s] -- The C compiler identification is GNU 7.3.0
+[7.314s] -- The CXX compiler identification is GNU 7.3.0
+[7.776s] -- Check for working C compiler: /usr/bin/cc
+[11.513s] -- Check for working C compiler: /usr/bin/cc -- works
+[11.523s] -- Detecting C compiler ABI info
+[15.752s] -- Detecting C compiler ABI info - done
+[15.942s] -- Detecting C compile features
+[26.628s] -- Detecting C compile features - done
+[26.713s] -- Check for working CXX compiler: /usr/bin/c++
+[30.058s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[30.108s] -- Detecting CXX compiler ABI info
+[33.977s] -- Detecting CXX compiler ABI info - done
+[34.114s] -- Detecting CXX compile features
+[49.726s] -- Detecting CXX compile features - done
+[50.730s] -- Found ament_cmake_auto: 0.7.6 (/home/jetson/ros2_dashing/install/ament_cmake_auto/share/ament_cmake_auto/cmake)
+[64.370s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3") 
+[64.375s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[92.677s] -- Found ament_cmake_ros: 0.7.0 (/home/jetson/ros2_dashing/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[106.402s] -- Found rosidl_adapter: 0.7.10 (/home/jetson/ros2_dashing/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[107.842s] -- Found rmw_implementation_cmake: 0.7.2 (/home/jetson/ros2_dashing/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[108.282s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[108.310s] -- Looking for pthread.h
+[111.649s] -- Looking for pthread.h - found
+[111.666s] -- Looking for pthread_create
+[115.000s] -- Looking for pthread_create - not found
+[115.017s] -- Looking for pthread_create in pthreads
+[117.219s] -- Looking for pthread_create in pthreads - not found
+[117.242s] -- Looking for pthread_create in pthread
+[120.678s] -- Looking for pthread_create in pthread - found
+[120.719s] -- Found Threads: TRUE  
+[124.968s] -- Found poco_vendor:  (/home/jetson/ros2_dashing/install/poco_vendor/share/poco_vendor/cmake)
+[157.450s] -- Configuring done
+[160.449s] -- Generating done
+[160.482s] -- Build files have been written to: /home/jetson/JetPilot/ros2/build/rplidar_ros
+[160.571s] Invoked command in '/home/jetson/JetPilot/ros2/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/JetAutonomy/ros2/install/joystick:/home/jetson/JetAutonomy/ros2/install/jet_drive:/home/jetson/JetAutonomy/ros2/install/bno055:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake /home/jetson/JetPilot/ros2/src/rplidar -DCMAKE_INSTALL_PREFIX=/home/jetson/JetPilot/ros2/install/rplidar_ros
+[160.586s] Invoking command in '/home/jetson/JetPilot/ros2/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/JetAutonomy/ros2/install/joystick:/home/jetson/JetAutonomy/ros2/install/jet_drive:/home/jetson/JetAutonomy/ros2/install/bno055:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetPilot/ros2/build/rplidar_ros -- -j2 -l2
+[163.118s] [35m[1mScanning dependencies of target rplidar_composition_node[0m
+[165.113s] [  5%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o[0m
+[183.438s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:39:0[m[K,
+[183.439s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/include/rplidar_node.hpp:41[m[K,
+[183.440s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/rplidar_node.cpp:36[m[K:
+[183.449s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_protocol.h:59:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[183.450s]      _u8 data[0[01;35m[K][m[K;
+[183.450s]                [01;35m[K^[m[K
+[183.465s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:40:0[m[K,
+[183.466s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/include/rplidar_node.hpp:41[m[K,
+[183.467s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/rplidar_node.cpp:36[m[K:
+[183.468s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_cmd.h:260:19:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[183.468s]      _u8  payload[0[01;35m[K][m[K;
+[183.493s]                    [01;35m[K^[m[K
+[185.118s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::stop_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[185.119s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/rplidar_node.cpp:245:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[185.120s]  void rplidar_node::stop_motor(const EmptyRequest [01;35m[Kreq[m[K, EmptyResponse res)
+[185.121s]                                                   [01;35m[K^~~[m[K
+[185.121s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/rplidar_node.cpp:245:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[185.122s]  void rplidar_node::stop_motor(const EmptyRequest req, EmptyResponse [01;35m[Kres[m[K)
+[185.123s]                                                                      [01;35m[K^~~[m[K
+[185.137s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::start_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[185.138s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/rplidar_node.cpp:256:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[185.139s]  void rplidar_node::start_motor(const EmptyRequest [01;35m[Kreq[m[K, EmptyResponse res)
+[185.140s]                                                    [01;35m[K^~~[m[K
+[185.145s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/rplidar_node.cpp:256:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[185.158s]  void rplidar_node::start_motor(const EmptyRequest req, EmptyResponse [01;35m[Kres[m[K)
+[185.158s]                                                                       [01;35m[K^~~[m[K
+[185.294s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::publish_loop()[m[K’:
+[185.302s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/rplidar_node.cpp:343:97:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kangle_compensate_nodes[m[K’ [[01;35m[K-Wvla[m[K]
+[185.303s]        rplidar_response_measurement_node_hq_t angle_compensate_nodes[angle_compensate_nodes_count[01;35m[K][m[K;
+[185.303s]                                                                                                  [01;35m[K^[m[K
+[185.304s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/rplidar_node.cpp:353:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[185.307s]            for (j = 0; [01;35m[Kj < m_angle_compensate_multiple[m[K; j++) {
+[185.308s]                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[185.334s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/rplidar_node.cpp:374:44:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[185.334s]        for (size_t x = start_node, y = 0; [01;35m[Kx < end_node[m[K; ++x, ++y) {
+[185.335s]                                           [01;35m[K~~^~~~~~~~~~[m[K
+[185.339s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/rplidar_node.cpp:381:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_min[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[185.340s]      float [01;35m[Kangle_min[m[K = deg_2_rad(0.0f);
+[185.340s]            [01;35m[K^~~~~~~~~[m[K
+[185.341s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/rplidar_node.cpp:382:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[185.349s]      float [01;35m[Kangle_max[m[K = deg_2_rad(359.0f);
+[185.350s]            [01;35m[K^~~~~~~~~[m[K
+[211.237s] [ 11%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[215.782s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[215.783s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[215.784s]  bool raw_serial::open(const char * portname, uint32_t baudrate, uint32_t [01;35m[Kflags[m[K)
+[215.794s]                                                                           [01;35m[K^~~~~[m[K
+[215.814s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[215.815s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[215.816s]  void raw_serial::flush( _u32 [01;35m[Kflags[m[K)
+[215.817s]                               [01;35m[K^~~~~[m[K
+[215.819s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[215.819s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[215.820s]  int raw_serial::waitforsent(_u32 [01;35m[Ktimeout[m[K, size_t * returned_size)
+[215.837s]                                   [01;35m[K^~~~~~~[m[K
+[215.838s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[215.839s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[215.840s]  int raw_serial::waitforrecv(_u32 [01;35m[Ktimeout[m[K, size_t * returned_size)
+[215.853s]                                   [01;35m[K^~~~~~~[m[K
+[217.735s] [ 16%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[223.001s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:39:0[m[K,
+[223.002s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/sdkcommon.h:48[m[K,
+[223.003s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[223.003s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_protocol.h:59:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[223.004s]      _u8 data[0[01;35m[K][m[K;
+[223.026s]                [01;35m[K^[m[K
+[223.027s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:40:0[m[K,
+[223.028s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/sdkcommon.h:48[m[K,
+[223.045s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[223.047s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_cmd.h:260:19:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[223.048s]      _u8  payload[0[01;35m[K][m[K;
+[223.048s]                    [01;35m[K^[m[K
+[223.146s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::net::SocketAddress::getAddressAsString(char*, size_t) const[m[K’:
+[223.154s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:170:17:[m[K [01;35m[Kwarning: [m[Kordered comparison of pointer with integer zero [[01;35m[K-Wextra[m[K]
+[223.155s]      return ans<=[01;35m[K0[m[K?RESULT_OPERATION_FAIL:RESULT_OK;
+[223.155s]                  [01;35m[K^[m[K
+[223.257s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)[m[K’:
+[223.258s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:438:17:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[223.259s]          if ([01;35m[Kans == (int)len[m[K) {
+[223.260s]              [01;35m[K~~~~^~~~~~~~~~~[m[K
+[223.351s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/arch/linux/arch_linux.h:42:0[m[K,
+[223.351s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/sdkcommon.h:40[m[K,
+[223.352s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[223.360s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)[m[K’:
+[223.369s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:726:24:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[223.370s]              assert([01;35m[Kans == (int)l[m[Ken);
+[223.371s]                     [01;35m[K~~~~^~~~~~~~~[m[K
+[226.385s] [ 22%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[232.717s] [ 27%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/hal/thread.cpp.o[0m
+[237.121s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:39:0[m[K,
+[237.132s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/sdkcommon.h:48[m[K,
+[237.133s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/hal/thread.cpp:35[m[K:
+[237.134s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_protocol.h:59:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[237.135s]      _u8 data[0[01;35m[K][m[K;
+[237.136s]                [01;35m[K^[m[K
+[237.144s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:40:0[m[K,
+[237.145s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/sdkcommon.h:48[m[K,
+[237.147s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/hal/thread.cpp:35[m[K:
+[237.148s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_cmd.h:260:19:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[237.159s]      _u8  payload[0[01;35m[K][m[K;
+[237.160s]                    [01;35m[K^[m[K
+[237.190s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/hal/thread.cpp:43:0[m[K:
+[237.192s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[237.197s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[237.206s]  u_result Thread::join(unsigned long [01;35m[Ktimeout[m[K)
+[237.206s]                                      [01;35m[K^~~~~~~[m[K
+[238.762s] [ 33%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[244.247s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:39:0[m[K,
+[244.248s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/sdkcommon.h:48[m[K,
+[244.259s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:35[m[K:
+[244.260s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_protocol.h:59:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[244.267s]      _u8 data[0[01;35m[K][m[K;
+[244.268s]                [01;35m[K^[m[K
+[244.269s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:40:0[m[K,
+[244.270s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/sdkcommon.h:48[m[K,
+[244.292s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:35[m[K:
+[244.309s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_cmd.h:260:19:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[244.310s]      _u8  payload[0[01;35m[K][m[K;
+[244.310s]                    [01;35m[K^[m[K
+[245.098s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)[m[K’:
+[245.121s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:121:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[245.122s]  u_result RPlidarDriverImplCommon::reset(_u32 [01;35m[Ktimeout[m[K)
+[245.123s]                                               [01;35m[K^~~~~~~[m[K
+[245.170s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)[m[K’:
+[245.171s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:274:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[245.172s]  u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, _u32 [01;35m[Ktimeout[m[K)
+[245.173s]                                                                            [01;35m[K^~~~~~~[m[K
+[245.271s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In function ‘[01m[K_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)[m[K’:
+[245.278s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:996:23:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K-[m[K’ in operand of ‘[01m[K&[m[K’ [[01;35m[K-Wparentheses[m[K]
+[245.280s]      _u8 leftBytes = [01;35m[K4 - len[m[K & 0x3;
+[245.289s]                      [01;35m[K~~^~~~~[m[K
+[245.317s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[245.318s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:1207:32:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[245.318s]              if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[245.319s]                   [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[245.358s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:1215:32:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[245.359s]              if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[245.360s]                   [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[245.593s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)[m[K’:
+[245.594s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:1453:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[245.602s]  u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, _u32 [01;35m[KtimeoutInMs[m[K)
+[245.603s]                                                                                                          [01;35m[K^~~~~~~~~~~[m[K
+[245.638s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)[m[K’:
+[245.644s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:1550:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[245.648s]  u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, _u32 [01;35m[Koptions[m[K, RplidarScanMode* outUsedScanMode)
+[245.649s]                                                                                    [01;35m[K^~~~~~~[m[K
+[245.678s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)[m[K’:
+[245.694s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:1774:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[245.701s]  u_result RPlidarDriverImplCommon::stop(_u32 [01;35m[Ktimeout[m[K)
+[245.703s]                                              [01;35m[K^~~~~~~[m[K
+[245.826s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)[m[K’:
+[245.827s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:2162:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[245.828s]  u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, _u32 [01;35m[Ktimeout[m[K)
+[245.829s]                                                                     [01;35m[K^~~~~~~[m[K
+[245.894s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)[m[K’:
+[245.895s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:2240:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[245.897s]  u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, _u32 [01;35m[Kflag[m[K)
+[245.898s]                                                                                    [01;35m[K^~~~[m[K
+[245.923s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)[m[K’:
+[245.924s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:2282:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[245.925s]  u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, _u32 [01;35m[Kflag[m[K)
+[245.933s]                                                                         [01;35m[K^~~~[m[K
+[256.719s] [ 38%] [32m[1mLinking CXX shared library librplidar_composition_node.so[0m
+[261.977s] [ 38%] Built target rplidar_composition_node
+[262.666s] [35m[1mScanning dependencies of target rplidarNodeClient[0m
+[263.630s] [ 44%] [32mBuilding CXX object CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o[0m
+[299.628s] [ 50%] [32m[1mLinking CXX executable rplidarNodeClient[0m
+[305.554s] [ 50%] Built target rplidarNodeClient
+[306.019s] [35m[1mScanning dependencies of target rplidarNode[0m
+[307.298s] [ 55%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/src/node.cpp.o[0m
+[308.855s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/node.cpp:231:14:[m[K [01;35m[Kwarning: [m[Kinvalid suffix on literal; C++11 requires a space between literal and string macro [[01;35m[K-Wliteral-suffix[m[K]
+[308.856s]      ROS_INFO([01;35m[K"[m[KRPLIDAR running on ROS package rplidar_ros. SDK Version:"RPLIDAR_SDK_VERSION"");
+[308.868s]               [01;35m[K^[m[K
+[323.930s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:39:0[m[K,
+[323.940s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/node.cpp:45[m[K:
+[323.942s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_protocol.h:59:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[323.943s]      _u8 data[0[01;35m[K][m[K;
+[323.944s]                [01;35m[K^[m[K
+[323.951s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:40:0[m[K,
+[323.953s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/node.cpp:45[m[K:
+[323.954s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_cmd.h:260:19:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[323.955s]      _u8  payload[0[01;35m[K][m[K;
+[323.965s]                    [01;35m[K^[m[K
+[324.526s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/node.cpp:[m[K In function ‘[01m[Kbool stop_motor(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[324.527s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/node.cpp:166:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[324.528s]  bool stop_motor(const std::shared_ptr<std_srvs::srv::Empty::Request> [01;35m[Kreq[m[K,
+[324.529s]                                                                       [01;35m[K^~~[m[K
+[324.530s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/node.cpp:167:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[324.530s]                  std::shared_ptr<std_srvs::srv::Empty::Response> [01;35m[Kres[m[K)
+[324.531s]                                                                  [01;35m[K^~~[m[K
+[324.557s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/node.cpp:[m[K In function ‘[01m[Kbool start_motor(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[324.558s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/node.cpp:178:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[324.559s]  bool start_motor(const std::shared_ptr<std_srvs::srv::Empty::Request> [01;35m[Kreq[m[K,
+[324.560s]                                                                        [01;35m[K^~~[m[K
+[324.560s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/node.cpp:179:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[324.561s]                   std::shared_ptr<std_srvs::srv::Empty::Response> [01;35m[Kres[m[K)
+[324.562s]                                                                   [01;35m[K^~~[m[K
+[325.378s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[325.378s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/node.cpp:356:111:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kangle_compensate_nodes[m[K’ [[01;35m[K-Wvla[m[K]
+[325.379s]                      rplidar_response_measurement_node_hq_t angle_compensate_nodes[angle_compensate_nodes_count[01;35m[K][m[K;
+[325.380s]                                                                                                                [01;35m[K^[m[K
+[325.382s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/node.cpp:360:30:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[325.383s]                      for( ; [01;35m[Ki < count[m[K; i++ ) {
+[325.383s]                             [01;35m[K~~^~~~~~~[m[K
+[350.590s] [ 61%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[358.854s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[358.874s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[358.882s]  bool raw_serial::open(const char * portname, uint32_t baudrate, uint32_t [01;35m[Kflags[m[K)
+[358.882s]                                                                           [01;35m[K^~~~~[m[K
+[358.883s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[358.884s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[358.889s]  void raw_serial::flush( _u32 [01;35m[Kflags[m[K)
+[358.890s]                               [01;35m[K^~~~~[m[K
+[358.909s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[358.912s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[358.912s]  int raw_serial::waitforsent(_u32 [01;35m[Ktimeout[m[K, size_t * returned_size)
+[358.913s]                                   [01;35m[K^~~~~~~[m[K
+[358.914s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[358.915s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[358.915s]  int raw_serial::waitforrecv(_u32 [01;35m[Ktimeout[m[K, size_t * returned_size)
+[358.916s]                                   [01;35m[K^~~~~~~[m[K
+[361.066s] [ 66%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[365.946s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:39:0[m[K,
+[365.958s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/sdkcommon.h:48[m[K,
+[365.960s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[365.961s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_protocol.h:59:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[365.962s]      _u8 data[0[01;35m[K][m[K;
+[365.964s]                [01;35m[K^[m[K
+[365.975s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:40:0[m[K,
+[365.976s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/sdkcommon.h:48[m[K,
+[365.977s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[365.982s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_cmd.h:260:19:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[365.983s]      _u8  payload[0[01;35m[K][m[K;
+[365.988s]                    [01;35m[K^[m[K
+[366.101s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::net::SocketAddress::getAddressAsString(char*, size_t) const[m[K’:
+[366.102s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:170:17:[m[K [01;35m[Kwarning: [m[Kordered comparison of pointer with integer zero [[01;35m[K-Wextra[m[K]
+[366.103s]      return ans<=[01;35m[K0[m[K?RESULT_OPERATION_FAIL:RESULT_OK;
+[366.103s]                  [01;35m[K^[m[K
+[366.192s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)[m[K’:
+[366.193s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:438:17:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[366.194s]          if ([01;35m[Kans == (int)len[m[K) {
+[366.195s]              [01;35m[K~~~~^~~~~~~~~~~[m[K
+[366.264s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/arch/linux/arch_linux.h:42:0[m[K,
+[366.270s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/sdkcommon.h:40[m[K,
+[366.281s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[366.282s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)[m[K’:
+[366.283s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/arch/linux/net_socket.cpp:726:24:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[366.284s]              assert([01;35m[Kans == (int)l[m[Ken);
+[366.297s]                     [01;35m[K~~~~^~~~~~~~~[m[K
+[369.413s] [ 72%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[376.255s] [ 77%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o[0m
+[384.792s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:39:0[m[K,
+[384.804s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/sdkcommon.h:48[m[K,
+[384.806s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/hal/thread.cpp:35[m[K:
+[384.807s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_protocol.h:59:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[384.808s]      _u8 data[0[01;35m[K][m[K;
+[384.810s]                [01;35m[K^[m[K
+[384.822s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:40:0[m[K,
+[384.823s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/sdkcommon.h:48[m[K,
+[384.824s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/hal/thread.cpp:35[m[K:
+[384.830s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_cmd.h:260:19:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[384.831s]      _u8  payload[0[01;35m[K][m[K;
+[384.840s]                    [01;35m[K^[m[K
+[384.865s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/hal/thread.cpp:43:0[m[K:
+[384.866s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[384.866s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[384.867s]  u_result Thread::join(unsigned long [01;35m[Ktimeout[m[K)
+[384.868s]                                      [01;35m[K^~~~~~~[m[K
+[386.668s] [ 83%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o[0m
+[392.634s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:39:0[m[K,
+[392.637s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/sdkcommon.h:48[m[K,
+[392.638s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:35[m[K:
+[392.639s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_protocol.h:59:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[392.640s]      _u8 data[0[01;35m[K][m[K;
+[392.640s]                [01;35m[K^[m[K
+[392.650s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:40:0[m[K,
+[392.651s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/sdkcommon.h:48[m[K,
+[392.652s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:35[m[K:
+[392.657s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_cmd.h:260:19:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[392.658s]      _u8  payload[0[01;35m[K][m[K;
+[392.659s]                    [01;35m[K^[m[K
+[393.294s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::reset(_u32)[m[K’:
+[393.329s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:121:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[393.334s]  u_result RPlidarDriverImplCommon::reset(_u32 [01;35m[Ktimeout[m[K)
+[393.341s]                                               [01;35m[K^~~~~~~[m[K
+[393.400s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::checkIfTofLidar(bool&, _u32)[m[K’:
+[393.401s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:274:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[393.402s]  u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, _u32 [01;35m[Ktimeout[m[K)
+[393.406s]                                                                            [01;35m[K^~~~~~~[m[K
+[393.602s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In function ‘[01m[K_u32 rp::standalone::rplidar::_crc32cal(_u32, void*, _u16)[m[K’:
+[393.603s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:996:23:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K-[m[K’ in operand of ‘[01m[K&[m[K’ [[01;35m[K-Wparentheses[m[K]
+[393.603s]      _u8 leftBytes = [01;35m[K4 - len[m[K & 0x3;
+[393.604s]                      [01;35m[K~~^~~~~[m[K
+[393.658s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[393.659s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:1207:32:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[393.660s]              if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[393.661s]                   [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[393.663s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:1215:32:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[393.670s]              if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[393.671s]                   [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[393.814s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)[m[K’:
+[393.815s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:1453:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[393.816s]  u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, _u32 [01;35m[KtimeoutInMs[m[K)
+[393.816s]                                                                                                          [01;35m[K^~~~~~~~~~~[m[K
+[393.861s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::startScan(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)[m[K’:
+[393.862s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:1550:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[393.863s]  u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, _u32 [01;35m[Koptions[m[K, RplidarScanMode* outUsedScanMode)
+[393.864s]                                                                                    [01;35m[K^~~~~~~[m[K
+[393.906s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::stop(_u32)[m[K’:
+[393.914s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:1774:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[393.915s]  u_result RPlidarDriverImplCommon::stop(_u32 [01;35m[Ktimeout[m[K)
+[393.916s]                                              [01;35m[K^~~~~~~[m[K
+[393.997s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::setLidarSpinSpeed(_u16, _u32)[m[K’:
+[393.998s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:2162:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[394.005s]  u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, _u32 [01;35m[Ktimeout[m[K)
+[394.006s]                                                                     [01;35m[K^~~~~~~[m[K
+[394.016s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverSerial::connect(const char*, _u32, _u32)[m[K’:
+[394.017s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:2240:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[394.017s]  u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, _u32 [01;35m[Kflag[m[K)
+[394.018s]                                                                                    [01;35m[K^~~~[m[K
+[394.027s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverTCP::connect(const char*, _u32, _u32)[m[K’:
+[394.028s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/sdk/src/rplidar_driver.cpp:2282:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[394.042s]  u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, _u32 [01;35m[Kflag[m[K)
+[394.049s]                                                                         [01;35m[K^~~~[m[K
+[402.125s] [ 88%] [32m[1mLinking CXX executable rplidarNode[0m
+[411.153s] [ 88%] Built target rplidarNode
+[412.097s] [35m[1mScanning dependencies of target rplidar_composition[0m
+[414.090s] [ 94%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/standalone_rplidar.cpp.o[0m
+[434.814s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:39:0[m[K,
+[434.815s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/include/rplidar_node.hpp:41[m[K,
+[434.816s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/standalone_rplidar.cpp:16[m[K:
+[434.829s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_protocol.h:59:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[434.830s]      _u8 data[0[01;35m[K][m[K;
+[434.830s]                [01;35m[K^[m[K
+[434.831s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar.h:40:0[m[K,
+[434.832s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/include/rplidar_node.hpp:41[m[K,
+[434.849s]                  from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/standalone_rplidar.cpp:16[m[K:
+[434.850s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/./sdk/include/rplidar_cmd.h:260:19:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[434.851s]      _u8  payload[0[01;35m[K][m[K;
+[434.851s]                    [01;35m[K^[m[K
+[437.490s] In file included from [01m[K/home/jetson/JetPilot/ros2/src/rplidar/src/standalone_rplidar.cpp:16:0[m[K:
+[437.491s] [01m[K/home/jetson/JetPilot/ros2/src/rplidar/include/rplidar_node.hpp:76:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfloat rplidar_ros::getAngle(const rplidar_response_measurement_node_hq_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[437.492s]  static float [01;35m[KgetAngle[m[K(const rplidar_response_measurement_node_hq_t& node)
+[437.492s]               [01;35m[K^~~~~~~~[m[K
+[439.702s] [100%] [32m[1mLinking CXX executable rplidar_composition[0m
+[447.902s] [100%] Built target rplidar_composition
+[448.278s] Invoked command in '/home/jetson/JetPilot/ros2/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/JetAutonomy/ros2/install/joystick:/home/jetson/JetAutonomy/ros2/install/jet_drive:/home/jetson/JetAutonomy/ros2/install/bno055:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetPilot/ros2/build/rplidar_ros -- -j2 -l2
+[450.865s] Invoking command in '/home/jetson/JetPilot/ros2/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/JetAutonomy/ros2/install/joystick:/home/jetson/JetAutonomy/ros2/install/jet_drive:/home/jetson/JetAutonomy/ros2/install/bno055:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetPilot/ros2/build/rplidar_ros --target install -- -j2 -l2
+[453.014s] [ 38%] Built target rplidar_composition_node
+[453.939s] [ 50%] Built target rplidarNodeClient
+[455.070s] [ 88%] Built target rplidarNode
+[456.134s] [100%] Built target rplidar_composition
+[457.153s] [36mInstall the project...[0m
+[457.622s] -- Install configuration: ""
+[457.638s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+[457.682s] -- Set runtime path of "/home/jetson/JetPilot/ros2/install/rplidar_ros/lib/rplidar_ros/rplidarNode" to ""
+[457.685s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+[457.702s] -- Set runtime path of "/home/jetson/JetPilot/ros2/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient" to ""
+[457.730s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[457.738s] -- Set runtime path of "/home/jetson/JetPilot/ros2/install/rplidar_ros/lib/rplidar_ros/rplidar_composition" to ""
+[457.753s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/launch
+[457.754s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[457.755s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[457.767s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[457.768s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[457.768s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[457.778s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[457.779s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[457.780s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[457.781s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[457.798s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar.launch.py
+[457.813s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/rviz
+[457.814s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[457.815s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/lib/librplidar_composition_node.so
+[457.857s] -- Set runtime path of "/home/jetson/JetPilot/ros2/install/rplidar_ros/lib/librplidar_composition_node.so" to ""
+[457.859s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/include
+[457.859s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/include/visibility.h
+[457.874s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/include/rplidar_node.hpp
+[457.882s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+[457.906s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+[457.909s] -- Up-to-date: /home/jetson/JetPilot/ros2/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[457.913s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[457.915s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[457.927s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[457.936s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[457.969s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[457.982s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[457.983s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[457.993s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[458.009s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[458.013s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[458.014s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[458.015s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[458.016s] -- Installing: /home/jetson/JetPilot/ros2/install/rplidar_ros/share/rplidar_ros/package.xml
+[458.065s] Invoked command in '/home/jetson/JetPilot/ros2/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/JetAutonomy/ros2/install/joystick:/home/jetson/JetAutonomy/ros2/install/jet_drive:/home/jetson/JetAutonomy/ros2/install/bno055:/home/jetson/ros2_dashing/install/ros2bag:/home/jetson/ros2_dashing/install/topic_monitor:/home/jetson/ros2_dashing/install/sros2:/home/jetson/ros2_dashing/install/rqt_topic:/home/jetson/ros2_dashing/install/rqt_top:/home/jetson/ros2_dashing/install/rqt_srv:/home/jetson/ros2_dashing/install/rqt_shell:/home/jetson/ros2_dashing/install/rqt_service_caller:/home/jetson/ros2_dashing/install/rqt_py_console:/home/jetson/ros2_dashing/install/rqt_action:/home/jetson/ros2_dashing/install/rqt:/home/jetson/ros2_dashing/install/rqt_graph:/home/jetson/ros2_dashing/install/rqt_gui_py:/home/jetson/ros2_dashing/install/rqt_gui:/home/jetson/ros2_dashing/install/ros2topic:/home/jetson/ros2_dashing/install/ros2test:/home/jetson/ros2_dashing/install/ros2component:/home/jetson/ros2_dashing/install/ros2param:/home/jetson/ros2_dashing/install/ros2lifecycle:/home/jetson/ros2_dashing/install/ros2service:/home/jetson/ros2_dashing/install/ros2srv:/home/jetson/ros2_dashing/install/ros2run:/home/jetson/ros2_dashing/install/ros2launch:/home/jetson/ros2_dashing/install/ros2pkg:/home/jetson/ros2_dashing/install/ros2node:/home/jetson/ros2_dashing/install/ros2multicast:/home/jetson/ros2_dashing/install/ros2msg:/home/jetson/ros2_dashing/install/ros2action:/home/jetson/ros2_dashing/install/ros2cli:/home/jetson/ros2_dashing/install/quality_of_service_demo_py:/home/jetson/ros2_dashing/install/launch_testing_ros:/home/jetson/ros2_dashing/install/launch_ros:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_subscriber:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_service:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_publisher:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_client:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_server:/home/jetson/ros2_dashing/install/examples_rclpy_minimal_action_client:/home/jetson/ros2_dashing/install/examples_rclpy_executors:/home/jetson/ros2_dashing/install/demo_nodes_py:/home/jetson/ros2_dashing/install/ament_uncrustify:/home/jetson/ros2_dashing/install/test_launch_ros:/home/jetson/ros2_dashing/install/rosidl_runtime_py:/home/jetson/ros2_dashing/install/launch_testing:/home/jetson/ros2_dashing/install/launch:/home/jetson/ros2_dashing/install/osrf_pycommon:/home/jetson/ros2_dashing/install/ament_xmllint:/home/jetson/ros2_dashing/install/ament_pyflakes:/home/jetson/ros2_dashing/install/ament_pep8:/home/jetson/ros2_dashing/install/ament_pep257:/home/jetson/ros2_dashing/install/ament_pclint:/home/jetson/ros2_dashing/install/ament_package:/home/jetson/ros2_dashing/install/ament_lint_cmake:/home/jetson/ros2_dashing/install/ament_flake8:/home/jetson/ros2_dashing/install/ament_copyright:/home/jetson/ros2_dashing/install/ament_lint:/home/jetson/ros2_dashing/install/ament_index_python:/home/jetson/ros2_dashing/install/ament_cpplint:/home/jetson/ros2_dashing/install/ament_cppcheck:/home/jetson/ros2_dashing/install/ament_clang_tidy:/home/jetson/ros2_dashing/install/ament_clang_format /usr/bin/cmake --build /home/jetson/JetPilot/ros2/build/rplidar_ros --target install -- -j2 -l2

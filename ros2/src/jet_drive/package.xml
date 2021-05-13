@@ -8,7 +8,7 @@
   <license>MIT</license>
 
   <depend>rclpy</depend>
-  <depend>jet_autonomy_msgs</depend>
+  <depend>jetpilot_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

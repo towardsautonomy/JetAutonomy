@@ -1,0 +1,5 @@
+  File "/home/jetson/JetPilot/ros2/install/imu_bno055/lib/python3.6/site-packages/imu_bno055/imu_bno055_node.py", line 39
+    rate = self.create_rate(self.probe_freq, , self.get_clock())
+                                             ^
+SyntaxError: invalid syntax
+

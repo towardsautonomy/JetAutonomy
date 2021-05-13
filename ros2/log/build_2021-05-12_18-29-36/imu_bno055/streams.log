@@ -1,0 +1,31 @@
+[13.565s] Invoking command in '/home/jetson/JetPilot/ros2/src/imu_bno055': AMENT_PREFIX_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/JetPilot/ros2/install/imu_bno055/lib/python3.6/site-packages:/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/imu_bno055 build --build-base /home/jetson/JetPilot/ros2/build/imu_bno055/build install --prefix /home/jetson/JetPilot/ros2/install/imu_bno055 --record /home/jetson/JetPilot/ros2/build/imu_bno055/install.log --single-version-externally-managed
+[22.785s] running egg_info
+[22.796s] creating ../../build/imu_bno055/imu_bno055.egg-info
+[22.808s] writing ../../build/imu_bno055/imu_bno055.egg-info/PKG-INFO
+[22.813s] writing dependency_links to ../../build/imu_bno055/imu_bno055.egg-info/dependency_links.txt
+[22.817s] writing entry points to ../../build/imu_bno055/imu_bno055.egg-info/entry_points.txt
+[22.820s] writing requirements to ../../build/imu_bno055/imu_bno055.egg-info/requires.txt
+[22.823s] writing top-level names to ../../build/imu_bno055/imu_bno055.egg-info/top_level.txt
+[22.875s] writing manifest file '../../build/imu_bno055/imu_bno055.egg-info/SOURCES.txt'
+[23.322s] reading manifest file '../../build/imu_bno055/imu_bno055.egg-info/SOURCES.txt'
+[23.357s] writing manifest file '../../build/imu_bno055/imu_bno055.egg-info/SOURCES.txt'
+[23.359s] running build
+[23.360s] running build_py
+[23.361s] creating /home/jetson/JetPilot/ros2/build/imu_bno055/build
+[23.362s] creating /home/jetson/JetPilot/ros2/build/imu_bno055/build/lib
+[23.363s] creating /home/jetson/JetPilot/ros2/build/imu_bno055/build/lib/imu_bno055
+[23.364s] copying imu_bno055/imu_bno055_node.py -> /home/jetson/JetPilot/ros2/build/imu_bno055/build/lib/imu_bno055
+[23.368s] copying imu_bno055/__init__.py -> /home/jetson/JetPilot/ros2/build/imu_bno055/build/lib/imu_bno055
+[23.369s] running install
+[23.370s] running install_lib
+[23.377s] creating /home/jetson/JetPilot/ros2/install/imu_bno055/lib/python3.6/site-packages/imu_bno055
+[23.379s] copying /home/jetson/JetPilot/ros2/build/imu_bno055/build/lib/imu_bno055/imu_bno055_node.py -> /home/jetson/JetPilot/ros2/install/imu_bno055/lib/python3.6/site-packages/imu_bno055
+[23.384s] copying /home/jetson/JetPilot/ros2/build/imu_bno055/build/lib/imu_bno055/__init__.py -> /home/jetson/JetPilot/ros2/install/imu_bno055/lib/python3.6/site-packages/imu_bno055
+[23.428s] byte-compiling /home/jetson/JetPilot/ros2/install/imu_bno055/lib/python3.6/site-packages/imu_bno055/imu_bno055_node.py to imu_bno055_node.cpython-36.pyc
+[23.451s] byte-compiling /home/jetson/JetPilot/ros2/install/imu_bno055/lib/python3.6/site-packages/imu_bno055/__init__.py to __init__.cpython-36.pyc
+[23.452s] running install_data
+[23.461s] creating /home/jetson/JetPilot/ros2/install/imu_bno055/share/ament_index
+[23.465s] creating /home/jetson/JetPilot/ros2/install/imu_bno055/share/ament_index/resource_index
+[23.469s] creating /home/jetson/JetPilot/ros2/install/imu_bno055/share/ament_index/resource_index/packages
+[23.478s] error: can't copy 'resource/imu_bno055': doesn't exist or not a regular file
+[23.762s] Invoked command in '/home/jetson/JetPilot/ros2/src/imu_bno055' returned '1': AMENT_PREFIX_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/JetPilot/ros2/install/imu_bno055/lib/python3.6/site-packages:/home/jetson/JetPilot/ros2/install/jetpilot_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/imu_bno055 build --build-base /home/jetson/JetPilot/ros2/build/imu_bno055/build install --prefix /home/jetson/JetPilot/ros2/install/imu_bno055 --record /home/jetson/JetPilot/ros2/build/imu_bno055/install.log --single-version-externally-managed
