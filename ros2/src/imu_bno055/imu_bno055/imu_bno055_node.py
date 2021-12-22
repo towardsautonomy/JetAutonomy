@@ -33,11 +33,11 @@ class ImuBNO055Node(Node):
 
         self.get_logger().info('IMU Adafruit BNO055 initialized.')
 
-        # wait for gyroscope to be calibrated (accel and mag takes a long time and requires certain movement)
-        self.get_logger().info('Calibrating IMU.')
-        while (self.sensor.calibration_status[1] < 3):
-            time.sleep(0.1)
-        self.get_logger().info('IMU Calibrated.')
+        # # wait for gyroscope to be calibrated (accel and mag takes a long time and requires certain movement)
+        # self.get_logger().info('Calibrating IMU.')
+        # while (self.sensor.calibration_status[1] < 3):
+        #     time.sleep(0.1)
+        # self.get_logger().info('IMU Calibrated.')
 
         # spin the node
         self.spin()

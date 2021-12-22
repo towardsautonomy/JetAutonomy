@@ -35,7 +35,7 @@ sudo systemctl start jetpilot_startup
     - This node publishes the msg `sensor_msgs/Image` on topic `/front_cam/rgb`  
     
 1. RPLIDAR A2  
-    - ros2 package being used for this device is [here](https://github.com/youngday/rplidar_ros2)
+    - ros2 package being used for this device is a modified version of [this](https://github.com/youngday/rplidar_ros2)
     - This device needs access to `/dev/ttyUSB0`. This can be done by adding the user to the group `dialout`.  
       ```sudo adduser jetson dialout``` followed by a reboot.
     - Running this node: ```ros2 run rplidar_ros rplidarNode```.
@@ -54,7 +54,7 @@ sudo systemctl start jetpilot_startup
     - Running this node: ```ros2 launch joystick joystick_node.launch.py``` 
 
 1. IMU - Adafruit BNO055
-    - This module uses the `[Adafruit_Python_Extended_Bus](https://github.com/adafruit/Adafruit_Python_Extended_Bus)` library which needs to be installed separately.
+    - This module uses the [Adafruit_Python_Extended_Bus](https://github.com/adafruit/Adafruit_Python_Extended_Bus) library which needs to be installed separately.
     - Running this node: ```ros2 launch imu_bno055 imu_bno055_node.launch.py``` 
     
 1. Jet Drive Moderator  
@@ -66,13 +66,6 @@ sudo systemctl start jetpilot_startup
     - Running this node: ```ros2 launch jet_drive jet_drive_node.launch.py``` 
     - For other sensor frames to base link transforms, run: ```ros2 launch jet_drive frame_transforms.launch.py``` 
     - Launch the complete stack: ```ros2 launch jet_drive jet_pilot.launch.py``` 
-    - If monitoring these nodes from a different device, run this command on the guest machine for world-to-sensor transforms:  
-      ```
-      ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0  base_link imu_link
-      ros2 run tf2_ros static_transform_publisher 0 0 0.1 0 0 0  base_link laser_link
-      ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0  laser_frame laser_link
-      ros2 run tf2_ros static_transform_publisher 0.2 0 0 0 0 0  base_link camera_link
-      ```
 
 ## Teleoperation without ROS2 dependency
 
