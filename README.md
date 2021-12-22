@@ -29,7 +29,7 @@ sudo systemctl start jetpilot_startup
 ```
 ## Modules and Individual Packages
 
-1. Camera: `IMX219 Camera, 800 megapixels and 160 FOV`
+1. Camera: `IMX219-160 Camera`
     - More Details: https://www.waveshare.com/wiki/IMX219-160_Camera  
     - Running this node: ```ros2 launch front_cam front_cam_node.launch.py```  
     - This node publishes the msg `sensor_msgs/Image` on topic `/front_cam/rgb`  
