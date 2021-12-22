@@ -48,17 +48,17 @@ def generate_launch_description():
 
     # RPLIDAR node
     rplidar_node = Node(
-        node_name='rplidar_composition',
-        package='rplidar_ros',
-        node_executable='rplidar_composition',
-        output='screen',
+        node_name="rplidar_composition",
+        package="rplidar_ros",
+        node_executable="rplidar_composition",
+        output="screen",
         parameters=[{
-            'serial_port': '/dev/ttyUSB0',
-            'serial_baudrate': 115200,  # A1 / A2
-            # 'serial_baudrate': 256000, # A3
-            'frame_id': 'laser_link',#'laser'
-            'inverted': False,
-            'angle_compensate': True,
+            "serial_port": "/dev/ttyUSB0",
+            "serial_baudrate": 115200,  # A1 / A2
+            # "serial_baudrate": 256000, # A3
+            "frame_id": "laser_link",#"laser"
+            "inverted": False,
+            "angle_compensate": True,
         }],
     )
 
@@ -77,29 +77,36 @@ def generate_launch_description():
     )
     
     # coordinate transforms 
+    '''
+    ros2 run tf2_ros static_transform_publisher 0.0 0.0 0.1 1.57 0.0 0.0, base_link imu_link &
+    ros2 run tf2_ros static_transform_publisher 0.0 0.0 0.15 1.57 3.14 3.14, base_link laser_link &
+    ros2 run tf2_ros static_transform_publisher 0.0 0.0 0.0 0.0 0.0 0.0, laser_frame laser_link &
+    ros2 run tf2_ros static_transform_publisher 0.0 0.2 0.12 0.0 0.0 -1.8318, base_link camera_link &
+    '''
     imu_link_transforms = Node(
         node_name="static_transform_publisher",
         package="tf2_ros",
         node_executable="static_transform_publisher",
-        arguments=['0.0', '0.0', '0.1', '0.0', '0.0', '0.0', 'base_link', 'imu_link'],
+        output="screen",
+        arguments=["0.0", "0.0", "0.1", "{}".format(math.pi/2), "0.0", "0.0", "base_link", "imu_link"],
     )
     laser_link_transforms = Node(
         node_name="static_transform_publisher",
         package="tf2_ros",
         node_executable="static_transform_publisher",
-        arguments=['0.0', '0.0', '0.15', '0.0', '0.0', str(math.pi), 'base_link', 'laser_link'],
+        arguments=["0.0", "0.0", "0.15", "{}".format(math.pi/2), "{}".format(math.pi), "{}".format(math.pi), "base_link", "laser_link"],
     )
     laser_frame_transforms = Node(
         node_name="static_transform_publisher",
         package="tf2_ros",
         node_executable="static_transform_publisher",
-        arguments=['0.0', '0.0', '0.0', '0.0', '0.0', '0.0', 'laser_frame', 'laser_link'],
+        arguments=["0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "laser_frame", "laser_link"],
     )
     camera_link_transforms = Node(
         node_name="static_transform_publisher",
         package="tf2_ros",
         node_executable="static_transform_publisher",
-        arguments=['0.12', '0.0', '0.1', '0.0', str(math.radians(15.)), '0.0', 'base_link', 'camera_link'],
+        arguments=["0.0", "0.2", "0.12", , "0.0", "0.0", "{}".format(-(math.pi/2)-math.radians(15.)), "base_link", "camera_link"],
     )
 
     # launch nodes

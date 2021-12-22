@@ -1,4 +1,6 @@
 # JetPilot: Autonomous Driving Software Stack based on JetRacer Platform
+  
+![](media/JetRacer.jpg)
 
 ## Get Started  
 
@@ -54,7 +56,13 @@ sudo systemctl start jetpilot_startup
     - Running this node: ```ros2 launch joystick joystick_node.launch.py``` 
 
 1. IMU - Adafruit BNO055
-    - This module uses the [Adafruit_Python_Extended_Bus](https://github.com/adafruit/Adafruit_Python_Extended_Bus) library which needs to be installed separately.
+    - This module uses the [Adafruit_Python_Extended_Bus](https://github.com/adafruit/Adafruit_Python_Extended_Bus) library which needs to be installed separately.  
+    ![](media/BNO055.jpg)
+    - Connected to Jetson Nano I2C ports:
+        - BNO055 vin -> nano 3.3V
+        - BNO055 GND -> nano GND
+        - BNO055 SDA -> nano SDA2
+        - BNO055 SCL -> nano SDL2
     - Running this node: ```ros2 launch imu_bno055 imu_bno055_node.launch.py``` 
     
 1. Jet Drive Moderator  
@@ -66,6 +74,13 @@ sudo systemctl start jetpilot_startup
     - Running this node: ```ros2 launch jet_drive jet_drive_node.launch.py``` 
     - For other sensor frames to base link transforms, run: ```ros2 launch jet_drive frame_transforms.launch.py``` 
     - Launch the complete stack: ```ros2 launch jet_drive jet_pilot.launch.py``` 
+    - Sometimes `rviz2` complains about no `tf2` data if monitoring from a remote machine. Provide transforms locally by running:  
+        ```
+        ros2 run tf2_ros static_transform_publisher 0.0 0.0 0.1 1.57 0.0 0.0, base_link imu_link &
+        ros2 run tf2_ros static_transform_publisher 0.0 0.0 0.15 1.57 3.14 3.14, base_link laser_link &
+        ros2 run tf2_ros static_transform_publisher 0.0 0.0 0.0 0.0 0.0 0.0, laser_frame laser_link &
+        ros2 run tf2_ros static_transform_publisher 0.0 0.2 0.12 0.0 0.0 -1.8318, base_link camera_link &
+        ```
 
 ## Teleoperation without ROS2 dependency
 
